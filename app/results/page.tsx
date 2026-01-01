@@ -1,10 +1,26 @@
 "use client"
 
+import { useEffect } from "react"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { ExpediaBanner } from "@/components/expedia-banner"
 
-export default function USPage() {
+export default function ResultsPage() {
+  useEffect(() => {
+    const script = document.createElement("script")
+    script.async = true
+    script.type = "module"
+    script.src = "https://tpwdg.com/wl_web/main.js?wl_id=2916"
+    script.setAttribute("data-noptimize", "1")
+    script.setAttribute("data-cfasync", "false")
+    script.setAttribute("data-wpfc-render", "false")
+    document.head.appendChild(script)
+
+    return () => {
+      document.head.removeChild(script)
+    }
+  }, [])
+
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
@@ -17,21 +33,13 @@ export default function USPage() {
         <div className="relative bg-gradient-to-br from-primary/10 via-accent/5 to-background py-16 md:py-24">
           <div className="container mx-auto px-4">
             <div className="text-center mb-12 space-y-4">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-balance">United States Travel Deals</h1>
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-balance">Search Results</h1>
               <p className="text-lg md:text-xl text-muted-foreground text-balance max-w-2xl mx-auto">
-                Search and compare flights and hotels in USD
+                Compare the best travel deals
               </p>
             </div>
 
-            <div className="flex justify-center">
-              <iframe
-                src="https://www.trip.com/partners/ad/S9436324?Allianceid=7652184&SID=286550244&trip_sub1="
-                style={{ width: "967px", height: "215px", border: "none" }}
-                frameBorder="0"
-                scrolling="no"
-                id="S9436324-us"
-              />
-            </div>
+            <div id="tpwl-tickets" className="max-w-5xl mx-auto"></div>
           </div>
         </div>
       </main>

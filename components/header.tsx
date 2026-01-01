@@ -20,7 +20,7 @@ export function Header() {
             Hotels
           </Link>
           <Link
-            href="/deals/australia"
+            href="/deals/canada"
             className="text-sm font-medium text-[#FFD700] hover:text-[#FFC700] transition-colors"
           >
             Deals

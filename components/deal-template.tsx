@@ -3,10 +3,10 @@ import { Button } from "@/components/ui/button"
 import { ExternalLink } from "lucide-react"
 
 interface Deal {
-  from: string
-  to: string
-  departureDate: string
-  returnDate: string
+  route: string
+  dates: string
+  price: string
+  currency: string
   link: string
 }
 
@@ -29,10 +29,10 @@ export function DealTemplate({ title, description, deals }: DealTemplateProps) {
           <table className="w-full">
             <thead className="bg-muted/50 border-b">
               <tr>
-                <th className="px-4 py-3 text-left font-semibold">From</th>
-                <th className="px-4 py-3 text-left font-semibold">To</th>
-                <th className="px-4 py-3 text-left font-semibold">Departure Date</th>
-                <th className="px-4 py-3 text-left font-semibold">Return Date</th>
+                <th className="px-4 py-3 text-left font-semibold">Route</th>
+                <th className="px-4 py-3 text-left font-semibold">Dates</th>
+                <th className="px-4 py-3 text-left font-semibold">Price</th>
+                <th className="px-4 py-3 text-left font-semibold">Currency</th>
                 <th className="px-4 py-3 text-left font-semibold">Link</th>
               </tr>
             </thead>
@@ -40,10 +40,10 @@ export function DealTemplate({ title, description, deals }: DealTemplateProps) {
               {deals.length > 0 ? (
                 deals.map((deal, index) => (
                   <tr key={index} className="border-b last:border-0 hover:bg-muted/30">
-                    <td className="px-4 py-3">{deal.from}</td>
-                    <td className="px-4 py-3">{deal.to}</td>
-                    <td className="px-4 py-3">{deal.departureDate}</td>
-                    <td className="px-4 py-3">{deal.returnDate}</td>
+                    <td className="px-4 py-3">{deal.route}</td>
+                    <td className="px-4 py-3">{deal.dates}</td>
+                    <td className="px-4 py-3">{deal.price}</td>
+                    <td className="px-4 py-3">{deal.currency}</td>
                     <td className="px-4 py-3">
                       <Button asChild variant="link" size="sm" className="h-auto p-0">
                         <a href={deal.link} target="_blank" rel="noopener noreferrer">

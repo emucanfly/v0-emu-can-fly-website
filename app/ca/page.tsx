@@ -1,10 +1,7 @@
+"use client"
+
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
-import { Card } from "@/components/ui/card"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { FlightSearch } from "@/components/flight-search"
-import { HotelSearch } from "@/components/hotel-search"
-import { Plane, Hotel } from "lucide-react"
 import { ExpediaBanner } from "@/components/expedia-banner"
 
 export default function CAPage() {
@@ -26,28 +23,15 @@ export default function CAPage() {
               </p>
             </div>
 
-            <Card className="max-w-5xl mx-auto p-6 md:p-8 shadow-xl">
-              <Tabs defaultValue="flights" className="w-full">
-                <TabsList className="grid w-full max-w-md mx-auto grid-cols-2 mb-8">
-                  <TabsTrigger value="flights" className="gap-2">
-                    <Plane className="h-4 w-4" />
-                    Flights
-                  </TabsTrigger>
-                  <TabsTrigger value="hotels" className="gap-2">
-                    <Hotel className="h-4 w-4" />
-                    Hotels
-                  </TabsTrigger>
-                </TabsList>
-
-                <TabsContent value="flights" className="mt-0">
-                  <FlightSearch defaultCurrency="CAD" />
-                </TabsContent>
-
-                <TabsContent value="hotels" className="mt-0">
-                  <HotelSearch />
-                </TabsContent>
-              </Tabs>
-            </Card>
+            <div className="flex justify-center">
+              <iframe
+                src="https://www.trip.com/partners/ad/S9436324?Allianceid=7652184&SID=286550244&trip_sub1="
+                style={{ width: "967px", height: "215px", border: "none" }}
+                frameBorder="0"
+                scrolling="no"
+                id="S9436324-ca"
+              />
+            </div>
           </div>
         </div>
       </main>

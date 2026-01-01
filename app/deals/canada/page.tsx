@@ -13,8 +13,8 @@ export default function CanadaDealPage() {
         <div className="relative bg-gradient-to-br from-primary/10 via-accent/5 to-background py-16 md:py-24">
           <div className="container mx-auto px-4 max-w-5xl">
             <DealTemplate
-              title="Flight Deals from Canada"
-              description="Experience Canada's natural beauty and multicultural cities with these flight deals. From Toronto's cosmopolitan energy to Vancouver's mountain-meets-ocean vistas and the Rocky Mountains' majestic peaks, discover the Great White North."
+              title="Deals from Canada"
+              description="Discover amazing travel deals departing from Canada. From exploring Canadian cities to international destinations, find the best flight offers and start planning your next adventure today."
               deals={deals}
             />
           </div>

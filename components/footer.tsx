@@ -8,7 +8,7 @@ export function Footer() {
           <Link href="/about" className="text-sm text-[#FFD700] hover:text-[#FFC700] transition-colors">
             About Us
           </Link>
-          <Link href="/deals/australia" className="text-sm text-[#FFD700] hover:text-[#FFC700] transition-colors">
+          <Link href="/deals/canada" className="text-sm text-[#FFD700] hover:text-[#FFC700] transition-colors">
             Deals
           </Link>
           <Link href="/affiliates" className="text-sm text-[#FFD700] hover:text-[#FFC700] transition-colors">
