@@ -1,0 +1,27 @@
+{
+  "id": "deal:edreams:YOW-BOM:2026-05-04:1741",
+  "slug": "yow-bom",
+  "route": "YOW-BOM",
+  "from": "Ottawa",
+  "to": "Mumbai",
+  "tripType": "R",
+  "departureDate": "04MAY",
+  "returnDate": "11MAY",
+  "dates": {
+    "depart": "2026-05-04",
+    "return": "2026-05-11"
+  },
+  "MCarrier": null,
+  "OCarrier": null,
+  "CarrierType": "",
+  "price": {
+    "amount": 1741,
+    "currency": "CAD"
+  },
+  "market": "CA",
+  "cabinClass": "ECONOMY",
+  "provider": "edreams",
+  "Deeplink2": "https://ca.edreams.com/travel/#results/type=R;from=YOW;to=BOM;dep=2026-05-04;ret=2026-05-11;buyPath=FLIGHTS_HOME_SEARCH_FORM;internalSearch=true",
+  "createdat": "2026-01-02T23:11:06.946Z",
+  "lastUpdated": "2026-01-03T04:31:57.151Z"
+}
