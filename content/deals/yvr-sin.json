@@ -1,27 +1,17 @@
-{
-  "id": "deal:edreams:YVR-SIN:2026-05-05:1008",
-  "slug": "yvr-sin",
-  "route": "YVR-SIN",
-  "from": "Vancouver",
-  "to": "Singapore",
-  "tripType": "R",
-  "departureDate": "05MAY",
-  "returnDate": "12MAY",
-  "dates": {
-    "depart": "2026-05-05",
-    "return": "2026-05-12"
-  },
-  "MCarrier": null,
-  "OCarrier": null,
-  "CarrierType": "",
-  "price": {
-    "amount": 1008,
-    "currency": "CAD"
-  },
-  "market": "CA",
-  "cabinClass": "ECONOMY",
-  "provider": "edreams",
-  "Deeplink2": "https://ca.edreams.com/travel/#results/type=R;from=YVR;to=SIN;dep=2026-05-05;ret=2026-05-12;buyPath=FLIGHTS_HOME_SEARCH_FORM;internalSearch=true",
-  "createdat": "2026-01-02T11:22:14.639Z",
-  "lastUpdated": "2026-01-03T04:31:57.147Z"
-}
+ewogICJpZCI6ICJkZWFsOmVkcmVhbXM6WVZSLVNJTjoyMDI2LTA1LTA1OjEw
+MDgiLAogICJzbHVnIjogInl2ci1zaW4iLAogICJyb3V0ZSI6ICJZVlItU0lO
+IiwKICAiZnJvbSI6ICJWYW5jb3V2ZXIiLAogICJ0byI6ICJTaW5nYXBvcmUi
+LAogICJ0cmlwVHlwZSI6ICJSIiwKICAiZGVwYXJ0dXJlRGF0ZSI6ICIwNU1B
+WSIsCiAgInJldHVybkRhdGUiOiAiMTJNQVkiLAogICJkYXRlcyI6IHsKICAg
+ICJkZXBhcnQiOiAiMjAyNi0wNS0wNSIsCiAgICAicmV0dXJuIjogIjIwMjYt
+MDUtMTIiCiAgfSwKICAiTUNhcnJpZXIiOiBudWxsLAogICJPQ2FycmllciI6
+IG51bGwsCiAgIkNhcnJpZXJUeXBlIjogIiIsCiAgInByaWNlIjogewogICAg
+ImFtb3VudCI6IDEwMDgsCiAgICAiY3VycmVuY3kiOiAiQ0FEIgogIH0sCiAg
+Im1hcmtldCI6ICJDQSIsCiAgImNhYmluQ2xhc3MiOiAiRUNPTk9NWSIsCiAg
+InByb3ZpZGVyIjogImVkcmVhbXMiLAogICJEZWVwbGluazIiOiAiaHR0cHM6
+Ly9jYS5lZHJlYW1zLmNvbS90cmF2ZWwvI3Jlc3VsdHMvdHlwZT1SO2Zyb209
+WVZSO3RvPVNJTjtkZXA9MjAyNi0wNS0wNTtyZXQ9MjAyNi0wNS0xMjtidXlQ
+YXRoPUZMSUdIVFNfSE9NRV9TRUFSQ0hfRk9STTtpbnRlcm5hbFNlYXJjaD10
+cnVlIiwKICAiY3JlYXRlZGF0IjogIjIwMjYtMDEtMDJUMTE6MjI6MTQuNjM5
+WiIsCiAgImxhc3RVcGRhdGVkIjogIjIwMjYtMDEtMDNUMDQ6MzE6NTcuMTQ3
+WiIKfQ==
