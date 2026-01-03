@@ -1,0 +1,27 @@
+{
+  "id": "deal:edreams:YVR-LIM:2026-04-06:876",
+  "slug": "yvr-lim",
+  "route": "YVR-LIM",
+  "from": "Vancouver",
+  "to": "Lima",
+  "tripType": "R",
+  "departureDate": "06APR",
+  "returnDate": "13APR",
+  "dates": {
+    "depart": "2026-04-06",
+    "return": "2026-04-13"
+  },
+  "MCarrier": "WS",
+  "OCarrier": "",
+  "CarrierType": "WestJet, LATAM Airlines",
+  "price": {
+    "amount": 876,
+    "currency": "CAD"
+  },
+  "market": "CA",
+  "cabinClass": "ECONOMY",
+  "provider": "edreams",
+  "Deeplink2": "https://www.trip.com/flights/showfarefirst?dcity=yvr&acity=lim&ddate=2026-04-06&rdate=2026-04-13&tripType=ow&class=y&quantity=1&nonstoponly=off&locale=en-CA&curr=CAD&Allianceid=7652184&SID=286550244&trip_sub3=D9439425\n",
+  "createdat": "2026-01-02T23:11:07.036Z",
+  "lastUpdated": "2026-01-03T04:31:57.168Z"
+}
