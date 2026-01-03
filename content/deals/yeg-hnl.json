@@ -1,27 +1,17 @@
-{
-  "id": "deal:edreams:YEG-HNL:2026-03-03:544",
-  "slug": "yeg-hnl",
-  "route": "YEG-HNL",
-  "from": "Edmondton",
-  "to": "Honolulu",
-  "tripType": "R",
-  "departureDate": "03MAR",
-  "returnDate": "10MAR",
-  "dates": {
-    "depart": "2026-03-03",
-    "return": "2026-03-10"
-  },
-  "MCarrier": null,
-  "OCarrier": "QK",
-  "CarrierType": "Unknown (QK), Air Canada, Alaska Airlines",
-  "price": {
-    "amount": 544,
-    "currency": "CAD"
-  },
-  "market": "CA",
-  "cabinClass": "ECONOMY",
-  "provider": "edreams",
-  "Deeplink2": "https://ca.edreams.com/travel/#results/type=R;from=YEG;to=HNL;dep=2026-03-03;ret=2026-03-10;buyPath=FLIGHTS_HOME_SEARCH_FORM;internalSearch=true",
-  "createdat": "2026-01-01T11:20:50.215Z",
-  "lastUpdated": "2026-01-03T04:31:57.135Z"
-}
+ewogICJpZCI6ICJkZWFsOmVkcmVhbXM6WUVHLUhOTDoyMDI2LTAzLTAzOjU0
+NCIsCiAgInNsdWciOiAieWVnLWhubCIsCiAgInJvdXRlIjogIllFRy1ITkwi
+LAogICJmcm9tIjogIkVkbW9uZHRvbiIsCiAgInRvIjogIkhvbm9sdWx1IiwK
+ICAidHJpcFR5cGUiOiAiUiIsCiAgImRlcGFydHVyZURhdGUiOiAiMDNNQVIi
+LAogICJyZXR1cm5EYXRlIjogIjEwTUFSIiwKICAiZGF0ZXMiOiB7CiAgICAi
+ZGVwYXJ0IjogIjIwMjYtMDMtMDMiLAogICAgInJldHVybiI6ICIyMDI2LTAz
+LTEwIgogIH0sCiAgIk1DYXJyaWVyIjogbnVsbCwKICAiT0NhcnJpZXIiOiAi
+UUsiLAogICJDYXJyaWVyVHlwZSI6ICJVbmtub3duIChRSyksIEFpciBDYW5h
+ZGEsIEFsYXNrYSBBaXJsaW5lcyIsCiAgInByaWNlIjogewogICAgImFtb3Vu
+dCI6IDU0NCwKICAgICJjdXJyZW5jeSI6ICJDQUQiCiAgfSwKICAibWFya2V0
+IjogIkNBIiwKICAiY2FiaW5DbGFzcyI6ICJFQ09OT01ZIiwKICAicHJvdmlk
+ZXIiOiAiZWRyZWFtcyIsCiAgIkRlZXBsaW5rMiI6ICJodHRwczovL2NhLmVk
+cmVhbXMuY29tL3RyYXZlbC8jcmVzdWx0cy90eXBlPVI7ZnJvbT1ZRUc7dG89
+SE5MO2RlcD0yMDI2LTAzLTAzO3JldD0yMDI2LTAzLTEwO2J1eVBhdGg9RkxJ
+R0hUU19IT01FX1NFQVJDSF9GT1JNO2ludGVybmFsU2VhcmNoPXRydWUiLAog
+ICJjcmVhdGVkYXQiOiAiMjAyNi0wMS0wMVQxMToyMDo1MC4yMTVaIiwKICAi
+bGFzdFVwZGF0ZWQiOiAiMjAyNi0wMS0wM1QwNDozMTo1Ny4xMzVaIgp9
