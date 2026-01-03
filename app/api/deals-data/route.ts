@@ -110,19 +110,29 @@ async function fetchDealsForDestination(
   slug: string,
 ): Promise<{ deals: DealData["deals"]; lastUpdated: string | null }> {
   try {
-    // Primary source: GitHub raw JSON file
-    const githubUrl = `https://raw.githubusercontent.com/emucanfly/deals-data/main/deals/${slug}.json`
+    let data
 
-    const response = await fetch(githubUrl, {
-      next: { revalidate: 3600 }, // Cache for 1 hour
-      headers: { Accept: "application/json" },
-    })
-
-    if (response.ok) {
-      const data = await response.json()
-      if (data.deals && Array.isArray(data.deals)) {
-        return { deals: data.deals, lastUpdated: data.lastUpdated || null }
+    try {
+      // Attempt to import local deals data
+      const localData = await import(`@/app/deals-data/${slug}.json`)
+      if (localData.default) {
+        data = localData.default
       }
+    } catch {
+      // Local file not found, try GitHub
+      const githubUrl = `https://raw.githubusercontent.com/emucanfly/v0-emu-can-fly-website/main/content/deals/${slug}.json`
+      const response = await fetch(githubUrl, {
+        next: { revalidate: 3600 }, // Cache for 1 hour
+        headers: { Accept: "application/json" },
+      })
+
+      if (response.ok) {
+        data = await response.json()
+      }
+    }
+
+    if (data && data.deals && Array.isArray(data.deals)) {
+      return { deals: data.deals, lastUpdated: data.lastUpdated || null }
     }
   } catch {
     // Silent fail - will return empty deals

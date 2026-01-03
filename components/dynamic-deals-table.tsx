@@ -30,7 +30,7 @@ export function DynamicDealsTable({ destination, fallbackDeals = [] }: DynamicDe
       try {
         // Primary source: GitHub raw JSON file
         // Update this URL to your GitHub repo where deals are stored
-        const githubUrl = `https://raw.githubusercontent.com/emucanfly/deals-data/main/deals/${destination}.json`
+        const githubUrl = `https://raw.githubusercontent.com/emucanfly/v0-emu-can-fly-website/main/content/deals/${destination}.json`
 
         // Fallback source: n8n webhook endpoint
         const n8nUrl = `https://your-n8n-instance.com/webhook/deals/${destination}`
