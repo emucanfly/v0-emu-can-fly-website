@@ -1,27 +1,17 @@
-{
-  "id": "deal:edreams:YYC-CDG:2026-03-24:828",
-  "slug": "yyc-cdg",
-  "route": "YYC-CDG",
-  "from": "Calgary",
-  "to": "Paris",
-  "tripType": "R",
-  "departureDate": "24MAR",
-  "returnDate": "31MAR",
-  "dates": {
-    "depart": "2026-03-24",
-    "return": "2026-03-31"
-  },
-  "MCarrier": null,
-  "OCarrier": "AC",
-  "CarrierType": "Air Canada",
-  "price": {
-    "amount": 828,
-    "currency": "CAD"
-  },
-  "market": "CA",
-  "cabinClass": "ECONOMY",
-  "provider": "edreams",
-  "Deeplink2": "https://ca.edreams.com/travel/#results/type=R;from=YYC;to=CDG;dep=2026-03-24;ret=2026-03-31;buyPath=FLIGHTS_HOME_SEARCH_FORM;internalSearch=true",
-  "createdat": "2026-01-01T07:23:49.356Z",
-  "lastUpdated": "2026-01-03T04:31:57.130Z"
-}
+ewogICJpZCI6ICJkZWFsOmVkcmVhbXM6WVlDLUNERzoyMDI2LTAzLTI0Ojgy
+OCIsCiAgInNsdWciOiAieXljLWNkZyIsCiAgInJvdXRlIjogIllZQy1DREci
+LAogICJmcm9tIjogIkNhbGdhcnkiLAogICJ0byI6ICJQYXJpcyIsCiAgInRy
+aXBUeXBlIjogIlIiLAogICJkZXBhcnR1cmVEYXRlIjogIjI0TUFSIiwKICAi
+cmV0dXJuRGF0ZSI6ICIzMU1BUiIsCiAgImRhdGVzIjogewogICAgImRlcGFy
+dCI6ICIyMDI2LTAzLTI0IiwKICAgICJyZXR1cm4iOiAiMjAyNi0wMy0zMSIK
+ICB9LAogICJNQ2FycmllciI6IG51bGwsCiAgIk9DYXJyaWVyIjogIkFDIiwK
+ICAiQ2FycmllclR5cGUiOiAiQWlyIENhbmFkYSIsCiAgInByaWNlIjogewog
+ICAgImFtb3VudCI6IDgyOCwKICAgICJjdXJyZW5jeSI6ICJDQUQiCiAgfSwK
+ICAibWFya2V0IjogIkNBIiwKICAiY2FiaW5DbGFzcyI6ICJFQ09OT01ZIiwK
+ICAicHJvdmlkZXIiOiAiZWRyZWFtcyIsCiAgIkRlZXBsaW5rMiI6ICJodHRw
+czovL2NhLmVkcmVhbXMuY29tL3RyYXZlbC8jcmVzdWx0cy90eXBlPVI7ZnJv
+bT1ZWUM7dG89Q0RHO2RlcD0yMDI2LTAzLTI0O3JldD0yMDI2LTAzLTMxO2J1
+eVBhdGg9RkxJR0hUU19IT01FX1NFQVJDSF9GT1JNO2ludGVybmFsU2VhcmNo
+PXRydWUiLAogICJjcmVhdGVkYXQiOiAiMjAyNi0wMS0wMVQwNzoyMzo0OS4z
+NTZaIiwKICAibGFzdFVwZGF0ZWQiOiAiMjAyNi0wMS0wM1QwNDozMTo1Ny4x
+MzBaIgp9
