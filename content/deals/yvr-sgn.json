@@ -1,0 +1,27 @@
+{
+  "id": "deal:edreams:YVR-SGN:2026-05-05:1011",
+  "slug": "yvr-sgn",
+  "route": "YVR-SGN",
+  "from": "Vancouver",
+  "to": "Ho Chi Minh City",
+  "tripType": "R",
+  "departureDate": "05MAY",
+  "returnDate": "12MAY",
+  "dates": {
+    "depart": "2026-05-05",
+    "return": "2026-05-12"
+  },
+  "MCarrier": null,
+  "OCarrier": null,
+  "CarrierType": "",
+  "price": {
+    "amount": 1011,
+    "currency": "CAD"
+  },
+  "market": "CA",
+  "cabinClass": "ECONOMY",
+  "provider": "edreams",
+  "Deeplink2": "https://ca.edreams.com/travel/#results/type=R;from=YVR;to=SGN;dep=2026-05-05;ret=2026-05-12;buyPath=FLIGHTS_HOME_SEARCH_FORM;internalSearch=true",
+  "createdat": "2026-01-02T11:22:14.642Z",
+  "lastUpdated": "2026-01-03T04:31:57.148Z"
+}
