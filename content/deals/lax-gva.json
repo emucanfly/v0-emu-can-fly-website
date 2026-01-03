@@ -1,0 +1,27 @@
+{
+  "id": "deal:edreams:LAX-GVA:2026-03-17:460",
+  "slug": "lax-gva",
+  "route": "LAX-GVA",
+  "from": "Los Angeles",
+  "to": "Geneva",
+  "tripType": "R",
+  "departureDate": "17MAR",
+  "returnDate": "24MAR",
+  "dates": {
+    "depart": "2026-03-17",
+    "return": "2026-03-24"
+  },
+  "MCarrier": null,
+  "OCarrier": "LH",
+  "CarrierType": "Lufthansa, Unknown (CL)",
+  "price": {
+    "amount": 460,
+    "currency": "USD"
+  },
+  "market": "US",
+  "cabinClass": "ECONOMY",
+  "provider": "edreams",
+  "Deeplink2": "https://www.edreams.net/travel/#results/type=R;from=LAX;to=GVA;dep=2026-03-17;ret=2026-03-24;buyPath=FLIGHTS_HOME_SEARCH_FORM;internalSearch=true",
+  "createdat": "2026-01-01T12:17:52.332Z",
+  "lastUpdated": "2026-01-03T04:31:57.141Z"
+}
