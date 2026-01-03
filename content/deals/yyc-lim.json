@@ -1,27 +1,19 @@
-{
-  "id": "deal:edreams:YYC-LIM:2026-04-06:857",
-  "slug": "yyc-lim",
-  "route": "YYC-LIM",
-  "from": "Calgary",
-  "to": "Lima",
-  "tripType": "R",
-  "departureDate": "06APR",
-  "returnDate": "13APR",
-  "dates": {
-    "depart": "2026-04-06",
-    "return": "2026-04-13"
-  },
-  "MCarrier": "WS",
-  "OCarrier": "",
-  "CarrierType": "WestJet, LATAM Airlines",
-  "price": {
-    "amount": 857,
-    "currency": "CAD"
-  },
-  "market": "CA",
-  "cabinClass": "ECONOMY",
-  "provider": "edreams",
-  "Deeplink2": "https://www.trip.com/flights/showfarefirst?dcity=yyc&acity=lim&ddate=2026-04-06&rdate=2026-04-13&tripType=ow&class=y&quantity=1&nonstoponly=off&locale=en-CA&curr=CAD&Allianceid=7652184&SID=286550244&trip_sub3=D9439425\n",
-  "createdat": "2026-01-02T23:11:07.046Z",
-  "lastUpdated": "2026-01-03T04:31:57.172Z"
-}
+ewogICJpZCI6ICJkZWFsOmVkcmVhbXM6WVlDLUxJTToyMDI2LTA0LTA2Ojg1
+NyIsCiAgInNsdWciOiAieXljLWxpbSIsCiAgInJvdXRlIjogIllZQy1MSU0i
+LAogICJmcm9tIjogIkNhbGdhcnkiLAogICJ0byI6ICJMaW1hIiwKICAidHJp
+cFR5cGUiOiAiUiIsCiAgImRlcGFydHVyZURhdGUiOiAiMDZBUFIiLAogICJy
+ZXR1cm5EYXRlIjogIjEzQVBSIiwKICAiZGF0ZXMiOiB7CiAgICAiZGVwYXJ0
+IjogIjIwMjYtMDQtMDYiLAogICAgInJldHVybiI6ICIyMDI2LTA0LTEzIgog
+IH0sCiAgIk1DYXJyaWVyIjogIldTIiwKICAiT0NhcnJpZXIiOiAiIiwKICAi
+Q2FycmllclR5cGUiOiAiV2VzdEpldCwgTEFUQU0gQWlybGluZXMiLAogICJw
+cmljZSI6IHsKICAgICJhbW91bnQiOiA4NTcsCiAgICAiY3VycmVuY3kiOiAi
+Q0FEIgogIH0sCiAgIm1hcmtldCI6ICJDQSIsCiAgImNhYmluQ2xhc3MiOiAi
+RUNPTk9NWSIsCiAgInByb3ZpZGVyIjogImVkcmVhbXMiLAogICJEZWVwbGlu
+azIiOiAiaHR0cHM6Ly93d3cudHJpcC5jb20vZmxpZ2h0cy9zaG93ZmFyZWZp
+cnN0P2RjaXR5PXl5YyZhY2l0eT1saW0mZGRhdGU9MjAyNi0wNC0wNiZyZGF0
+ZT0yMDI2LTA0LTEzJnRyaXBUeXBlPW93JmNsYXNzPXkmcXVhbnRpdHk9MSZu
+b25zdG9wb25seT1vZmYmbG9jYWxlPWVuLUNBJmN1cnI9Q0FEJkFsbGlhbmNl
+aWQ9NzY1MjE4NCZTSUQ9Mjg2NTUwMjQ0JnRyaXBfc3ViMz1EOTQzOTQyNVxu
+IiwKICAiY3JlYXRlZGF0IjogIjIwMjYtMDEtMDJUMjM6MTE6MDcuMDQ2WiIs
+CiAgImxhc3RVcGRhdGVkIjogIjIwMjYtMDEtMDNUMDQ6MzE6NTcuMTcyWiIK
+fQ==
