@@ -1,0 +1,27 @@
+{
+  "id": "deal:edreams:LAX-OSL:2026-03-17:470",
+  "slug": "lax-osl",
+  "route": "LAX-OSL",
+  "from": "Los Angeles",
+  "to": "Oslo",
+  "tripType": "R",
+  "departureDate": "17MAR",
+  "returnDate": "24MAR",
+  "dates": {
+    "depart": "2026-03-17",
+    "return": "2026-03-24"
+  },
+  "MCarrier": null,
+  "OCarrier": "LH",
+  "CarrierType": "Lufthansa",
+  "price": {
+    "amount": 470,
+    "currency": "USD"
+  },
+  "market": "US",
+  "cabinClass": "ECONOMY",
+  "provider": "edreams",
+  "Deeplink2": "https://www.edreams.net/travel/#results/type=R;from=LAX;to=OSL;dep=2026-03-17;ret=2026-03-24;buyPath=FLIGHTS_HOME_SEARCH_FORM;internalSearch=true",
+  "createdat": "2026-01-01T12:17:52.326Z",
+  "lastUpdated": "2026-01-03T04:31:57.136Z"
+}
