@@ -1,27 +1,17 @@
-{
-  "id": "deal:edreams:LAX-ATH:2026-03-03:470",
-  "slug": "lax-ath",
-  "route": "LAX-ATH",
-  "from": "Los Angeles",
-  "to": "Athens",
-  "tripType": "R",
-  "departureDate": "03MAR",
-  "returnDate": "10MAR",
-  "dates": {
-    "depart": "2026-03-03",
-    "return": "2026-03-10"
-  },
-  "MCarrier": null,
-  "OCarrier": "LH",
-  "CarrierType": "Lufthansa, Air Canada",
-  "price": {
-    "amount": 470,
-    "currency": "USD"
-  },
-  "market": "US",
-  "cabinClass": "ECONOMY",
-  "provider": "edreams",
-  "Deeplink2": "https://www.edreams.net/travel/#results/type=R;from=LAX;to=ATH;dep=2026-03-03;ret=2026-03-10;buyPath=FLIGHTS_HOME_SEARCH_FORM;internalSearch=true",
-  "createdat": "2026-01-01T12:17:52.329Z",
-  "lastUpdated": "2026-01-03T04:31:57.140Z"
-}
+ewogICJpZCI6ICJkZWFsOmVkcmVhbXM6TEFYLUFUSDoyMDI2LTAzLTAzOjQ3
+MCIsCiAgInNsdWciOiAibGF4LWF0aCIsCiAgInJvdXRlIjogIkxBWC1BVEgi
+LAogICJmcm9tIjogIkxvcyBBbmdlbGVzIiwKICAidG8iOiAiQXRoZW5zIiwK
+ICAidHJpcFR5cGUiOiAiUiIsCiAgImRlcGFydHVyZURhdGUiOiAiMDNNQVIi
+LAogICJyZXR1cm5EYXRlIjogIjEwTUFSIiwKICAiZGF0ZXMiOiB7CiAgICAi
+ZGVwYXJ0IjogIjIwMjYtMDMtMDMiLAogICAgInJldHVybiI6ICIyMDI2LTAz
+LTEwIgogIH0sCiAgIk1DYXJyaWVyIjogbnVsbCwKICAiT0NhcnJpZXIiOiAi
+TEgiLAogICJDYXJyaWVyVHlwZSI6ICJMdWZ0aGFuc2EsIEFpciBDYW5hZGEi
+LAogICJwcmljZSI6IHsKICAgICJhbW91bnQiOiA0NzAsCiAgICAiY3VycmVu
+Y3kiOiAiVVNEIgogIH0sCiAgIm1hcmtldCI6ICJVUyIsCiAgImNhYmluQ2xh
+c3MiOiAiRUNPTk9NWSIsCiAgInByb3ZpZGVyIjogImVkcmVhbXMiLAogICJE
+ZWVwbGluazIiOiAiaHR0cHM6Ly93d3cuZWRyZWFtcy5uZXQvdHJhdmVsLyNy
+ZXN1bHRzL3R5cGU9Ujtmcm9tPUxBWDt0bz1BVEg7ZGVwPTIwMjYtMDMtMDM7
+cmV0PTIwMjYtMDMtMTA7YnV5UGF0aD1GTElHSFRTX0hPTUVfU0VBUkNIX0ZP
+Uk07aW50ZXJuYWxTZWFyY2g9dHJ1ZSIsCiAgImNyZWF0ZWRhdCI6ICIyMDI2
+LTAxLTAxVDEyOjE3OjUyLjMyOVoiLAogICJsYXN0VXBkYXRlZCI6ICIyMDI2
+LTAxLTAzVDA0OjMxOjU3LjE0MFoiCn0=
