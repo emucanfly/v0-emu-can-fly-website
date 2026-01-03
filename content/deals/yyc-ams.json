@@ -1,27 +1,17 @@
-{
-  "id": "deal:edreams:YYC-AMS:2026-03-31:843",
-  "slug": "yyc-ams",
-  "route": "YYC-AMS",
-  "from": "Calgary",
-  "to": "Amsterdam",
-  "tripType": "R",
-  "departureDate": "31MAR",
-  "returnDate": "07APR",
-  "dates": {
-    "depart": "2026-03-31",
-    "return": "2026-04-07"
-  },
-  "MCarrier": null,
-  "OCarrier": "AC",
-  "CarrierType": "Air Canada",
-  "price": {
-    "amount": 843,
-    "currency": "CAD"
-  },
-  "market": "CA",
-  "cabinClass": "ECONOMY",
-  "provider": "edreams",
-  "Deeplink2": "https://ca.edreams.com/travel/#results/type=R;from=YYC;to=AMS;dep=2026-03-31;ret=2026-04-07;buyPath=FLIGHTS_HOME_SEARCH_FORM;internalSearch=true",
-  "createdat": "2026-01-01T08:13:54.107Z",
-  "lastUpdated": "2026-01-03T04:31:57.131Z"
-}
+ewogICJpZCI6ICJkZWFsOmVkcmVhbXM6WVlDLUFNUzoyMDI2LTAzLTMxOjg0
+MyIsCiAgInNsdWciOiAieXljLWFtcyIsCiAgInJvdXRlIjogIllZQy1BTVMi
+LAogICJmcm9tIjogIkNhbGdhcnkiLAogICJ0byI6ICJBbXN0ZXJkYW0iLAog
+ICJ0cmlwVHlwZSI6ICJSIiwKICAiZGVwYXJ0dXJlRGF0ZSI6ICIzMU1BUiIs
+CiAgInJldHVybkRhdGUiOiAiMDdBUFIiLAogICJkYXRlcyI6IHsKICAgICJk
+ZXBhcnQiOiAiMjAyNi0wMy0zMSIsCiAgICAicmV0dXJuIjogIjIwMjYtMDQt
+MDciCiAgfSwKICAiTUNhcnJpZXIiOiBudWxsLAogICJPQ2FycmllciI6ICJB
+QyIsCiAgIkNhcnJpZXJUeXBlIjogIkFpciBDYW5hZGEiLAogICJwcmljZSI6
+IHsKICAgICJhbW91bnQiOiA4NDMsCiAgICAiY3VycmVuY3kiOiAiQ0FEIgog
+IH0sCiAgIm1hcmtldCI6ICJDQSIsCiAgImNhYmluQ2xhc3MiOiAiRUNPTk9N
+WSIsCiAgInByb3ZpZGVyIjogImVkcmVhbXMiLAogICJEZWVwbGluazIiOiAi
+aHR0cHM6Ly9jYS5lZHJlYW1zLmNvbS90cmF2ZWwvI3Jlc3VsdHMvdHlwZT1S
+O2Zyb209WVlDO3RvPUFNUztkZXA9MjAyNi0wMy0zMTtyZXQ9MjAyNi0wNC0w
+NztidXlQYXRoPUZMSUdIVFNfSE9NRV9TRUFSQ0hfRk9STTtpbnRlcm5hbFNl
+YXJjaD10cnVlIiwKICAiY3JlYXRlZGF0IjogIjIwMjYtMDEtMDFUMDg6MTM6
+NTQuMTA3WiIsCiAgImxhc3RVcGRhdGVkIjogIjIwMjYtMDEtMDNUMDQ6MzE6
+NTcuMTMxWiIKfQ==
