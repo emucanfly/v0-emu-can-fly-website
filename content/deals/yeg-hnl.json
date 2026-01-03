@@ -1,0 +1,27 @@
+{
+  "id": "deal:edreams:YEG-HNL:2026-03-03:544",
+  "slug": "yeg-hnl",
+  "route": "YEG-HNL",
+  "from": "Edmondton",
+  "to": "Honolulu",
+  "tripType": "R",
+  "departureDate": "03MAR",
+  "returnDate": "10MAR",
+  "dates": {
+    "depart": "2026-03-03",
+    "return": "2026-03-10"
+  },
+  "MCarrier": null,
+  "OCarrier": "QK",
+  "CarrierType": "Unknown (QK), Air Canada, Alaska Airlines",
+  "price": {
+    "amount": 544,
+    "currency": "CAD"
+  },
+  "market": "CA",
+  "cabinClass": "ECONOMY",
+  "provider": "edreams",
+  "Deeplink2": "https://ca.edreams.com/travel/#results/type=R;from=YEG;to=HNL;dep=2026-03-03;ret=2026-03-10;buyPath=FLIGHTS_HOME_SEARCH_FORM;internalSearch=true",
+  "createdat": "2026-01-01T11:20:50.215Z",
+  "lastUpdated": "2026-01-03T04:31:57.135Z"
+}
