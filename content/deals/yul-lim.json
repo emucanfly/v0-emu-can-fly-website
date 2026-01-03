@@ -1,0 +1,27 @@
+{
+  "id": "deal:edreams:YUL-LIM:2026-04-06:718",
+  "slug": "yul-lim",
+  "route": "YUL-LIM",
+  "from": "Montreal",
+  "to": "Lima",
+  "tripType": "R",
+  "departureDate": "06APR",
+  "returnDate": "13APR",
+  "dates": {
+    "depart": "2026-04-06",
+    "return": "2026-04-13"
+  },
+  "MCarrier": "CM",
+  "OCarrier": "",
+  "CarrierType": "Copa Airlines",
+  "price": {
+    "amount": 718,
+    "currency": "CAD"
+  },
+  "market": "CA",
+  "cabinClass": "ECONOMY",
+  "provider": "edreams",
+  "Deeplink2": "https://www.trip.com/flights/showfarefirst?dcity=yul&acity=lim&ddate=2026-04-06&rdate=2026-04-13&tripType=ow&class=y&quantity=1&nonstoponly=off&locale=en-CA&curr=CAD&Allianceid=7652184&SID=286550244&trip_sub3=D9439425\n",
+  "createdat": "2026-01-02T23:11:07.012Z",
+  "lastUpdated": "2026-01-03T04:31:57.163Z"
+}
