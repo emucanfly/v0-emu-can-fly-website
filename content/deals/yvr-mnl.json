@@ -1,0 +1,27 @@
+{
+  "id": "deal:edreams:YVR-MNL:2026-05-05:903",
+  "slug": "yvr-mnl",
+  "route": "YVR-MNL",
+  "from": "Vancouver",
+  "to": "Manila",
+  "tripType": "R",
+  "departureDate": "05MAY",
+  "returnDate": "12MAY",
+  "dates": {
+    "depart": "2026-05-05",
+    "return": "2026-05-12"
+  },
+  "MCarrier": null,
+  "OCarrier": null,
+  "CarrierType": "",
+  "price": {
+    "amount": 903,
+    "currency": "CAD"
+  },
+  "market": "CA",
+  "cabinClass": "ECONOMY",
+  "provider": "edreams",
+  "Deeplink2": "https://ca.edreams.com/travel/#results/type=R;from=YVR;to=MNL;dep=2026-05-05;ret=2026-05-12;buyPath=FLIGHTS_HOME_SEARCH_FORM;internalSearch=true",
+  "createdat": "2026-01-02T11:22:14.644Z",
+  "lastUpdated": "2026-01-03T04:31:57.149Z"
+}
