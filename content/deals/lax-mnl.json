@@ -1,27 +1,17 @@
-{
-  "id": "deal:edreams:LAX-MNL:2026-03-03:667",
-  "slug": "lax-mnl",
-  "route": "LAX-MNL",
-  "from": "Los Angeles",
-  "to": "Manila",
-  "tripType": "R",
-  "departureDate": "03MAR",
-  "returnDate": "17MAR",
-  "dates": {
-    "depart": "2026-03-03",
-    "return": "2026-03-17"
-  },
-  "MCarrier": null,
-  "OCarrier": "CX",
-  "CarrierType": "Cathay Pacific",
-  "price": {
-    "amount": 667,
-    "currency": "USD"
-  },
-  "market": "US",
-  "cabinClass": "ECONOMY",
-  "provider": "edreams",
-  "Deeplink2": "https://www.edreams.net/travel/#results/type=R;from=LAX;to=MNL;dep=2026-03-03;ret=2026-03-17;buyPath=FLIGHTS_HOME_SEARCH_FORM;internalSearch=true",
-  "createdat": "2026-01-01T04:33:22.684Z",
-  "lastUpdated": "2026-01-03T04:31:57.123Z"
-}
+ewogICJpZCI6ICJkZWFsOmVkcmVhbXM6TEFYLU1OTDoyMDI2LTAzLTAzOjY2
+NyIsCiAgInNsdWciOiAibGF4LW1ubCIsCiAgInJvdXRlIjogIkxBWC1NTkwi
+LAogICJmcm9tIjogIkxvcyBBbmdlbGVzIiwKICAidG8iOiAiTWFuaWxhIiwK
+ICAidHJpcFR5cGUiOiAiUiIsCiAgImRlcGFydHVyZURhdGUiOiAiMDNNQVIi
+LAogICJyZXR1cm5EYXRlIjogIjE3TUFSIiwKICAiZGF0ZXMiOiB7CiAgICAi
+ZGVwYXJ0IjogIjIwMjYtMDMtMDMiLAogICAgInJldHVybiI6ICIyMDI2LTAz
+LTE3IgogIH0sCiAgIk1DYXJyaWVyIjogbnVsbCwKICAiT0NhcnJpZXIiOiAi
+Q1giLAogICJDYXJyaWVyVHlwZSI6ICJDYXRoYXkgUGFjaWZpYyIsCiAgInBy
+aWNlIjogewogICAgImFtb3VudCI6IDY2NywKICAgICJjdXJyZW5jeSI6ICJV
+U0QiCiAgfSwKICAibWFya2V0IjogIlVTIiwKICAiY2FiaW5DbGFzcyI6ICJF
+Q09OT01ZIiwKICAicHJvdmlkZXIiOiAiZWRyZWFtcyIsCiAgIkRlZXBsaW5r
+MiI6ICJodHRwczovL3d3dy5lZHJlYW1zLm5ldC90cmF2ZWwvI3Jlc3VsdHMv
+dHlwZT1SO2Zyb209TEFYO3RvPU1OTDtkZXA9MjAyNi0wMy0wMztyZXQ9MjAy
+Ni0wMy0xNztidXlQYXRoPUZMSUdIVFNfSE9NRV9TRUFSQ0hfRk9STTtpbnRl
+cm5hbFNlYXJjaD10cnVlIiwKICAiY3JlYXRlZGF0IjogIjIwMjYtMDEtMDFU
+MDQ6MzM6MjIuNjg0WiIsCiAgImxhc3RVcGRhdGVkIjogIjIwMjYtMDEtMDNU
+MDQ6MzE6NTcuMTIzWiIKfQ==
