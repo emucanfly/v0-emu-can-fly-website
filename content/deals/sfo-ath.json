@@ -1,0 +1,27 @@
+{
+  "id": "deal:edreams:SFO-ATH:2026-03-03:590",
+  "slug": "sfo-ath",
+  "route": "SFO-ATH",
+  "from": "San Francisco",
+  "to": "Athens",
+  "tripType": "R",
+  "departureDate": "03MAR",
+  "returnDate": "10MAR",
+  "dates": {
+    "depart": "2026-03-03",
+    "return": "2026-03-10"
+  },
+  "MCarrier": null,
+  "OCarrier": "DL",
+  "CarrierType": "Delta Air Lines, Air France, KLM",
+  "price": {
+    "amount": 590,
+    "currency": "USD"
+  },
+  "market": "US",
+  "cabinClass": "ECONOMY",
+  "provider": "edreams",
+  "Deeplink2": "https://www.edreams.net/travel/#results/type=R;from=SFO;to=ATH;dep=2026-03-03;ret=2026-03-10;buyPath=FLIGHTS_HOME_SEARCH_FORM;internalSearch=true",
+  "createdat": "2026-01-01T12:17:52.334Z",
+  "lastUpdated": "2026-01-03T04:31:57.141Z"
+}
