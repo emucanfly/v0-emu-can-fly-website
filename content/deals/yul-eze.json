@@ -1,27 +1,17 @@
-{
-  "id": "deal:edreams:YUL-EZE:2026-04-06:1098",
-  "slug": "yul-eze",
-  "route": "YUL-EZE",
-  "from": "Montreal",
-  "to": "Bueno Aires",
-  "tripType": "R",
-  "departureDate": "06APR",
-  "returnDate": "13APR",
-  "dates": {
-    "depart": "2026-04-06",
-    "return": "2026-04-13"
-  },
-  "MCarrier": null,
-  "OCarrier": null,
-  "CarrierType": "",
-  "price": {
-    "amount": 1098,
-    "currency": "CAD"
-  },
-  "market": "CA",
-  "cabinClass": "ECONOMY",
-  "provider": "edreams",
-  "Deeplink2": "https://ca.edreams.com/travel/#results/type=R;from=YUL;to=EZE;dep=2026-04-06;ret=2026-04-13;buyPath=FLIGHTS_HOME_SEARCH_FORM;internalSearch=true",
-  "createdat": "2026-01-02T23:11:06.992Z",
-  "lastUpdated": "2026-01-03T04:31:57.159Z"
-}
+ewogICJpZCI6ICJkZWFsOmVkcmVhbXM6WVVMLUVaRToyMDI2LTA0LTA2OjEw
+OTgiLAogICJzbHVnIjogInl1bC1lemUiLAogICJyb3V0ZSI6ICJZVUwtRVpF
+IiwKICAiZnJvbSI6ICJNb250cmVhbCIsCiAgInRvIjogIkJ1ZW5vIEFpcmVz
+IiwKICAidHJpcFR5cGUiOiAiUiIsCiAgImRlcGFydHVyZURhdGUiOiAiMDZB
+UFIiLAogICJyZXR1cm5EYXRlIjogIjEzQVBSIiwKICAiZGF0ZXMiOiB7CiAg
+ICAiZGVwYXJ0IjogIjIwMjYtMDQtMDYiLAogICAgInJldHVybiI6ICIyMDI2
+LTA0LTEzIgogIH0sCiAgIk1DYXJyaWVyIjogbnVsbCwKICAiT0NhcnJpZXIi
+OiBudWxsLAogICJDYXJyaWVyVHlwZSI6ICIiLAogICJwcmljZSI6IHsKICAg
+ICJhbW91bnQiOiAxMDk4LAogICAgImN1cnJlbmN5IjogIkNBRCIKICB9LAog
+ICJtYXJrZXQiOiAiQ0EiLAogICJjYWJpbkNsYXNzIjogIkVDT05PTVkiLAog
+ICJwcm92aWRlciI6ICJlZHJlYW1zIiwKICAiRGVlcGxpbmsyIjogImh0dHBz
+Oi8vY2EuZWRyZWFtcy5jb20vdHJhdmVsLyNyZXN1bHRzL3R5cGU9Ujtmcm9t
+PVlVTDt0bz1FWkU7ZGVwPTIwMjYtMDQtMDY7cmV0PTIwMjYtMDQtMTM7YnV5
+UGF0aD1GTElHSFRTX0hPTUVfU0VBUkNIX0ZPUk07aW50ZXJuYWxTZWFyY2g9
+dHJ1ZSIsCiAgImNyZWF0ZWRhdCI6ICIyMDI2LTAxLTAyVDIzOjExOjA2Ljk5
+MloiLAogICJsYXN0VXBkYXRlZCI6ICIyMDI2LTAxLTAzVDA0OjMxOjU3LjE1
+OVoiCn0=
