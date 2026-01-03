@@ -1,13 +1,1 @@
-eyJkZWFscyI6W3sibWFya2V0IjoiQ0EiLCJyb3V0ZSI6IllWUi1QRUsiLCJm
-cm9tQWlycG9ydCI6IllWUiIsInRvQWlycG9ydCI6IlBFSyIsImRlcGFydHVy
-ZURhdGUiOiIxMk1BWSIsInJldHVybkRhdGUiOiIxOU1BWSIsImNhYmluIjoi
-RUNPTk9NWSIsImNhcnJpZXIiOiIiLCJwcmljZSI6eyJhbW91bnQiOjEwMDMs
-ImN1cnJlbmN5IjoiQ0FEIiwiZGVlcExpbmsiOiJodHRwczovL2NhLmVkcmVh
-bXMuY29tL3RyYXZlbC8jcmVzdWx0cy90eXBlPVI7ZnJvbT1ZVlI7dG89UEVL
-O2RlcD0yMDI2LTA1LTEyO3JldD0yMDI2LTA1LTE5O2J1eVBhdGg9RkxJR0hU
-U19IT01FX1NFQVJDSF9GT1JNO2ludGVybmFsU2VhcmNoPXRydWUiLCJsYXN0
-c2VlbiI6IjIwMjYtMDEtMDJUMTE6MjI6MTQuNjM4WiJ9fV0sImxvd2VzdFBy
-aWNlIjoxMDAzLCJsYXN0VXBkYXRlZCI6IjIwMjYtMDEtMDJUMTE6MjI6MTQu
-NjM4WiIsInNsdWciOiJiZWlqaW5nIiwiZGVzdGluYXRpb24iOiJCZWlqaW5n
-LCBDaGluYSIsImltYWdlIjoiL2JlaWppbmctY2hpbmEtZm9yYmlkZGVuLWNp
-dHkuanBnIiwiY3VycmVuY3kiOiJDQUQifQ==
+{"deals":[{"market":"CA","route":"YVR-PEK","fromAirport":"YVR","toAirport":"PEK","departureDate":"12MAY","returnDate":"19MAY","cabin":"ECONOMY","carrier":"","price":{"amount":1003,"currency":"CAD","deepLink":"https://ca.edreams.com/travel/#results/type=R;from=YVR;to=PEK;dep=2026-05-12;ret=2026-05-19;buyPath=FLIGHTS_HOME_SEARCH_FORM;internalSearch=true","lastseen":"2026-01-02T11:22:14.638Z"}}],"lowestPrice":1003,"lastUpdated":"2026-01-02T11:22:14.638Z","slug":"beijing","destination":"Beijing, China","image":"/beijing-china-forbidden-city.jpg","currency":"CAD"}
