@@ -1,0 +1,27 @@
+{
+  "id": "deal:edreams:YVR-ICN:2026-05-12:1003",
+  "slug": "yvr-icn",
+  "route": "YVR-ICN",
+  "from": "Vancouver",
+  "to": "Seoul",
+  "tripType": "R",
+  "departureDate": "12MAY",
+  "returnDate": "19MAY",
+  "dates": {
+    "depart": "2026-05-12",
+    "return": "2026-05-19"
+  },
+  "MCarrier": null,
+  "OCarrier": null,
+  "CarrierType": "",
+  "price": {
+    "amount": 1003,
+    "currency": "CAD"
+  },
+  "market": "CA",
+  "cabinClass": "ECONOMY",
+  "provider": "edreams",
+  "Deeplink2": "https://ca.edreams.com/travel/#results/type=R;from=YVR;to=ICN;dep=2026-05-12;ret=2026-05-19;buyPath=FLIGHTS_HOME_SEARCH_FORM;internalSearch=true",
+  "createdat": "2026-01-02T11:22:14.634Z",
+  "lastUpdated": "2026-01-03T04:31:57.145Z"
+}
