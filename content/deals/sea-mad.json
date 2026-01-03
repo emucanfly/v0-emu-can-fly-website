@@ -1,0 +1,27 @@
+{
+  "id": "deal:edreams:SEA-MAD:2026-03-03:426",
+  "slug": "sea-mad",
+  "route": "SEA-MAD",
+  "from": "Seattle",
+  "to": "Madrid",
+  "tripType": "R",
+  "departureDate": "03MAR",
+  "returnDate": "10MAR",
+  "dates": {
+    "depart": "2026-03-03",
+    "return": "2026-03-10"
+  },
+  "MCarrier": null,
+  "OCarrier": "AF",
+  "CarrierType": "Air France, KLM, Delta Air Lines",
+  "price": {
+    "amount": 426,
+    "currency": "USD"
+  },
+  "market": "US",
+  "cabinClass": "ECONOMY",
+  "provider": "edreams",
+  "Deeplink2": "https://www.edreams.net/travel/#results/type=R;from=SEA;to=MAD;dep=2026-03-03;ret=2026-03-10;buyPath=FLIGHTS_HOME_SEARCH_FORM;internalSearch=true",
+  "createdat": "2026-01-01T12:17:52.337Z",
+  "lastUpdated": "2026-01-03T04:31:57.142Z"
+}
