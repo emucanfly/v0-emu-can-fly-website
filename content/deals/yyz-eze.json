@@ -1,0 +1,27 @@
+{
+  "id": "deal:edreams:YYZ-EZE:2026-04-06:1027",
+  "slug": "yyz-eze",
+  "route": "YYZ-EZE",
+  "from": "Toronto",
+  "to": "Bueno Aires",
+  "tripType": "R",
+  "departureDate": "06APR",
+  "returnDate": "13APR",
+  "dates": {
+    "depart": "2026-04-06",
+    "return": "2026-04-13"
+  },
+  "MCarrier": null,
+  "OCarrier": null,
+  "CarrierType": "",
+  "price": {
+    "amount": 1027,
+    "currency": "CAD"
+  },
+  "market": "CA",
+  "cabinClass": "ECONOMY",
+  "provider": "edreams",
+  "Deeplink2": "https://ca.edreams.com/travel/#results/type=R;from=YYZ;to=EZE;dep=2026-04-06;ret=2026-04-13;buyPath=FLIGHTS_HOME_SEARCH_FORM;internalSearch=true",
+  "createdat": "2026-01-02T23:11:06.958Z",
+  "lastUpdated": "2026-01-03T04:31:57.152Z"
+}
