@@ -1,29 +1,15 @@
-{
-  "lastUpdated": "2025-01-03T12:00:00Z",
-  "deals": [
-    {
-      "id": "deal-ba-001",
-      "route": "YVR → EZE",
-      "dates": "08Mar - 22Mar",
-      "price": "$699",
-      "currency": "CAD",
-      "link": "https://www.trip.com/flights/to-eze/"
-    },
-    {
-      "id": "deal-ba-002",
-      "route": "YYZ → EZE",
-      "dates": "12Mar - 26Mar",
-      "price": "$749",
-      "currency": "CAD",
-      "link": "https://www.trip.com/flights/to-eze/"
-    },
-    {
-      "id": "deal-ba-003",
-      "route": "YYC → EZE",
-      "dates": "15Mar - 29Mar",
-      "price": "$779",
-      "currency": "CAD",
-      "link": "https://www.trip.com/flights/to-eze/"
-    }
-  ]
-}
+ewogICJsYXN0VXBkYXRlZCI6ICIyMDI1LTAxLTAzVDEyOjAwOjAwWiIsCiAg
+ImRlYWxzIjogWwogICAgewogICAgICAiaWQiOiAiZGVhbC1iYS0wMDEiLAog
+ICAgICAicm91dGUiOiAiWVZSIOKGkiBFWkUiLAogICAgICAiZGF0ZXMiOiAi
+MDhNYXIgLSAyMk1hciIsCiAgICAgICJwcmljZSI6ICIkNjk5IiwKICAgICAg
+ImN1cnJlbmN5IjogIkNBRCIsCiAgICAgICJsaW5rIjogImh0dHBzOi8vd3d3
+LnRyaXAuY29tL2ZsaWdodHMvdG8tZXplLyIKICAgIH0sCiAgICB7CiAgICAg
+ICJpZCI6ICJkZWFsLWJhLTAwMiIsCiAgICAgICJyb3V0ZSI6ICJZWVog4oaS
+IEVaRSIsCiAgICAgICJkYXRlcyI6ICIxMk1hciAtIDI2TWFyIiwKICAgICAg
+InByaWNlIjogIiQ3NDkiLAogICAgICAiY3VycmVuY3kiOiAiQ0FEIiwKICAg
+ICAgImxpbmsiOiAiaHR0cHM6Ly93d3cudHJpcC5jb20vZmxpZ2h0cy90by1l
+emUvIgogICAgfSwKICAgIHsKICAgICAgImlkIjogImRlYWwtYmEtMDAzIiwK
+ICAgICAgInJvdXRlIjogIllZQyDihpIgRVpFIiwKICAgICAgImRhdGVzIjog
+IjE1TWFyIC0gMjlNYXIiLAogICAgICAicHJpY2UiOiAiJDc3OSIsCiAgICAg
+ICJjdXJyZW5jeSI6ICJDQUQiLAogICAgICAibGluayI6ICJodHRwczovL3d3
+dy50cmlwLmNvbS9mbGlnaHRzL3RvLWV6ZS8iCiAgICB9CiAgXQp9Cg==
