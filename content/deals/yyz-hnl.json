@@ -1,27 +1,17 @@
-{
-  "id": "deal:edreams:YYZ-HNL:2026-03-03:534",
-  "slug": "yyz-hnl",
-  "route": "YYZ-HNL",
-  "from": "Toronto",
-  "to": "Honolulu",
-  "tripType": "R",
-  "departureDate": "03MAR",
-  "returnDate": "10MAR",
-  "dates": {
-    "depart": "2026-03-03",
-    "return": "2026-03-10"
-  },
-  "MCarrier": null,
-  "OCarrier": "AC",
-  "CarrierType": "Air Canada",
-  "price": {
-    "amount": 534,
-    "currency": "CAD"
-  },
-  "market": "CA",
-  "cabinClass": "ECONOMY",
-  "provider": "edreams",
-  "Deeplink2": "https://ca.edreams.com/travel/#results/type=R;from=YYZ;to=HNL;dep=2026-03-03;ret=2026-03-10;buyPath=FLIGHTS_HOME_SEARCH_FORM;internalSearch=true",
-  "createdat": "2026-01-01T09:12:09.500Z",
-  "lastUpdated": "2026-01-03T04:31:57.132Z"
-}
+ewogICJpZCI6ICJkZWFsOmVkcmVhbXM6WVlaLUhOTDoyMDI2LTAzLTAzOjUz
+NCIsCiAgInNsdWciOiAieXl6LWhubCIsCiAgInJvdXRlIjogIllZWi1ITkwi
+LAogICJmcm9tIjogIlRvcm9udG8iLAogICJ0byI6ICJIb25vbHVsdSIsCiAg
+InRyaXBUeXBlIjogIlIiLAogICJkZXBhcnR1cmVEYXRlIjogIjAzTUFSIiwK
+ICAicmV0dXJuRGF0ZSI6ICIxME1BUiIsCiAgImRhdGVzIjogewogICAgImRl
+cGFydCI6ICIyMDI2LTAzLTAzIiwKICAgICJyZXR1cm4iOiAiMjAyNi0wMy0x
+MCIKICB9LAogICJNQ2FycmllciI6IG51bGwsCiAgIk9DYXJyaWVyIjogIkFD
+IiwKICAiQ2FycmllclR5cGUiOiAiQWlyIENhbmFkYSIsCiAgInByaWNlIjog
+ewogICAgImFtb3VudCI6IDUzNCwKICAgICJjdXJyZW5jeSI6ICJDQUQiCiAg
+fSwKICAibWFya2V0IjogIkNBIiwKICAiY2FiaW5DbGFzcyI6ICJFQ09OT01Z
+IiwKICAicHJvdmlkZXIiOiAiZWRyZWFtcyIsCiAgIkRlZXBsaW5rMiI6ICJo
+dHRwczovL2NhLmVkcmVhbXMuY29tL3RyYXZlbC8jcmVzdWx0cy90eXBlPVI7
+ZnJvbT1ZWVo7dG89SE5MO2RlcD0yMDI2LTAzLTAzO3JldD0yMDI2LTAzLTEw
+O2J1eVBhdGg9RkxJR0hUU19IT01FX1NFQVJDSF9GT1JNO2ludGVybmFsU2Vh
+cmNoPXRydWUiLAogICJjcmVhdGVkYXQiOiAiMjAyNi0wMS0wMVQwOToxMjow
+OS41MDBaIiwKICAibGFzdFVwZGF0ZWQiOiAiMjAyNi0wMS0wM1QwNDozMTo1
+Ny4xMzJaIgp9
