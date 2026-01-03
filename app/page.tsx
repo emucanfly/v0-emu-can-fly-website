@@ -4,6 +4,7 @@ import { useState, useEffect } from "react"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { ExpediaBanner } from "@/components/expedia-banner"
+import { DealsGrid } from "@/components/deals-grid"
 
 const BACKGROUND_IMAGES = [
   "/sunny-beach-shore-with-crystal-clear-water-and-pal.jpg",
@@ -33,6 +34,13 @@ export default function Home() {
           <ExpediaBanner />
         </div>
 
+        <section className="container mx-auto px-4 py-8">
+          <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-2">Hot Flight Deals</h2>
+          <p className="text-muted-foreground mb-6">Discover amazing fares to popular destinations</p>
+          <DealsGrid showOnlyWithDeals={false} maxItems={12} />
+        </section>
+
+        {/* Hero section with search */}
         <div className="relative bg-gradient-to-br from-primary/10 via-accent/5 to-background py-16 md:py-24 overflow-hidden">
           {/* Background images with fade transition */}
           {BACKGROUND_IMAGES.map((image, index) => (
@@ -53,9 +61,11 @@ export default function Home() {
 
           <div className="container mx-auto px-4 relative z-10">
             <div className="text-center mb-12 space-y-4">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-balance">Find Your Next Adventure</h1>
-              <p className="text-lg md:text-xl text-muted-foreground text-balance max-w-2xl mx-auto">
-                {"Search and compare flights and hotels from hundreds of travel sites"}
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white text-balance">
+                Compare Cheap Flights
+              </h1>
+              <p className="text-lg md:text-xl text-[#FFD700] text-balance max-w-2xl mx-auto">
+                Find the best airfare deals from top travel sites in one search
               </p>
             </div>
 
@@ -121,7 +131,7 @@ export default function Home() {
               </div>
               <h3 className="font-semibold text-lg">Great Deals</h3>
               <p className="text-sm text-muted-foreground">
-                {"Discover exclusive offers and special promotions on flights & hotels"}
+                Discover exclusive offers and special promotions on flights
               </p>
             </div>
           </div>
