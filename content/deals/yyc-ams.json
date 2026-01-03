@@ -1,0 +1,27 @@
+{
+  "id": "deal:edreams:YYC-AMS:2026-03-31:843",
+  "slug": "yyc-ams",
+  "route": "YYC-AMS",
+  "from": "Calgary",
+  "to": "Amsterdam",
+  "tripType": "R",
+  "departureDate": "31MAR",
+  "returnDate": "07APR",
+  "dates": {
+    "depart": "2026-03-31",
+    "return": "2026-04-07"
+  },
+  "MCarrier": null,
+  "OCarrier": "AC",
+  "CarrierType": "Air Canada",
+  "price": {
+    "amount": 843,
+    "currency": "CAD"
+  },
+  "market": "CA",
+  "cabinClass": "ECONOMY",
+  "provider": "edreams",
+  "Deeplink2": "https://ca.edreams.com/travel/#results/type=R;from=YYC;to=AMS;dep=2026-03-31;ret=2026-04-07;buyPath=FLIGHTS_HOME_SEARCH_FORM;internalSearch=true",
+  "createdat": "2026-01-01T08:13:54.107Z",
+  "lastUpdated": "2026-01-03T04:31:57.131Z"
+}
