@@ -1,0 +1,27 @@
+{
+  "id": "deal:edreams:YYC-EZE:2026-04-13:1381",
+  "slug": "yyc-eze",
+  "route": "YYC-EZE",
+  "from": "Calgary",
+  "to": "Bueno Aires",
+  "tripType": "R",
+  "departureDate": "13APR",
+  "returnDate": "20APR",
+  "dates": {
+    "depart": "2026-04-13",
+    "return": "2026-04-20"
+  },
+  "MCarrier": null,
+  "OCarrier": null,
+  "CarrierType": "",
+  "price": {
+    "amount": 1381,
+    "currency": "CAD"
+  },
+  "market": "CA",
+  "cabinClass": "ECONOMY",
+  "provider": "edreams",
+  "Deeplink2": "https://ca.edreams.com/travel/#results/type=R;from=YYC;to=EZE;dep=2026-04-13;ret=2026-04-20;buyPath=FLIGHTS_HOME_SEARCH_FORM;internalSearch=true",
+  "createdat": "2026-01-02T23:11:07.044Z",
+  "lastUpdated": "2026-01-03T04:31:57.172Z"
+}
