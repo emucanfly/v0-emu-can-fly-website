@@ -1,29 +1,16 @@
-{
-  "lastUpdated": "2025-01-03T12:00:00Z",
-  "deals": [
-    {
-      "id": "deal-seoul-001",
-      "route": "YVR → ICN",
-      "dates": "15Feb - 22Feb",
-      "price": "$549",
-      "currency": "CAD",
-      "link": "https://www.trip.com/flights/to-icn/"
-    },
-    {
-      "id": "deal-seoul-002",
-      "route": "YYZ → ICN",
-      "dates": "20Feb - 27Feb",
-      "price": "$599",
-      "currency": "CAD",
-      "link": "https://www.trip.com/flights/to-icn/"
-    },
-    {
-      "id": "deal-seoul-003",
-      "route": "YYC → ICN",
-      "dates": "10Mar - 17Mar",
-      "price": "$629",
-      "currency": "CAD",
-      "link": "https://www.trip.com/flights/to-icn/"
-    }
-  ]
-}
+ewogICJsYXN0VXBkYXRlZCI6ICIyMDI1LTAxLTAzVDEyOjAwOjAwWiIsCiAg
+ImRlYWxzIjogWwogICAgewogICAgICAiaWQiOiAiZGVhbC1zZW91bC0wMDEi
+LAogICAgICAicm91dGUiOiAiWVZSIOKGkiBJQ04iLAogICAgICAiZGF0ZXMi
+OiAiMTVGZWIgLSAyMkZlYiIsCiAgICAgICJwcmljZSI6ICIkNTQ5IiwKICAg
+ICAgImN1cnJlbmN5IjogIkNBRCIsCiAgICAgICJsaW5rIjogImh0dHBzOi8v
+d3d3LnRyaXAuY29tL2ZsaWdodHMvdG8taWNuLyIKICAgIH0sCiAgICB7CiAg
+ICAgICJpZCI6ICJkZWFsLXNlb3VsLTAwMiIsCiAgICAgICJyb3V0ZSI6ICJZ
+WVog4oaSIElDTiIsCiAgICAgICJkYXRlcyI6ICIyMEZlYiAtIDI3RmViIiwK
+ICAgICAgInByaWNlIjogIiQ1OTkiLAogICAgICAiY3VycmVuY3kiOiAiQ0FE
+IiwKICAgICAgImxpbmsiOiAiaHR0cHM6Ly93d3cudHJpcC5jb20vZmxpZ2h0
+cy90by1pY24vIgogICAgfSwKICAgIHsKICAgICAgImlkIjogImRlYWwtc2Vv
+dWwtMDAzIiwKICAgICAgInJvdXRlIjogIllZQyDihpIgSUNOIiwKICAgICAg
+ImRhdGVzIjogIjEwTWFyIC0gMTdNYXIiLAogICAgICAicHJpY2UiOiAiJDYy
+OSIsCiAgICAgICJjdXJyZW5jeSI6ICJDQUQiLAogICAgICAibGluayI6ICJo
+dHRwczovL3d3dy50cmlwLmNvbS9mbGlnaHRzL3RvLWljbi8iCiAgICB9CiAg
+XQp9Cg==
