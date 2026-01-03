@@ -1,27 +1,19 @@
-{
-  "id": "deal:edreams:YVR-LIM:2026-04-06:876",
-  "slug": "yvr-lim",
-  "route": "YVR-LIM",
-  "from": "Vancouver",
-  "to": "Lima",
-  "tripType": "R",
-  "departureDate": "06APR",
-  "returnDate": "13APR",
-  "dates": {
-    "depart": "2026-04-06",
-    "return": "2026-04-13"
-  },
-  "MCarrier": "WS",
-  "OCarrier": "",
-  "CarrierType": "WestJet, LATAM Airlines",
-  "price": {
-    "amount": 876,
-    "currency": "CAD"
-  },
-  "market": "CA",
-  "cabinClass": "ECONOMY",
-  "provider": "edreams",
-  "Deeplink2": "https://www.trip.com/flights/showfarefirst?dcity=yvr&acity=lim&ddate=2026-04-06&rdate=2026-04-13&tripType=ow&class=y&quantity=1&nonstoponly=off&locale=en-CA&curr=CAD&Allianceid=7652184&SID=286550244&trip_sub3=D9439425\n",
-  "createdat": "2026-01-02T23:11:07.036Z",
-  "lastUpdated": "2026-01-03T04:31:57.168Z"
-}
+ewogICJpZCI6ICJkZWFsOmVkcmVhbXM6WVZSLUxJTToyMDI2LTA0LTA2Ojg3
+NiIsCiAgInNsdWciOiAieXZyLWxpbSIsCiAgInJvdXRlIjogIllWUi1MSU0i
+LAogICJmcm9tIjogIlZhbmNvdXZlciIsCiAgInRvIjogIkxpbWEiLAogICJ0
+cmlwVHlwZSI6ICJSIiwKICAiZGVwYXJ0dXJlRGF0ZSI6ICIwNkFQUiIsCiAg
+InJldHVybkRhdGUiOiAiMTNBUFIiLAogICJkYXRlcyI6IHsKICAgICJkZXBh
+cnQiOiAiMjAyNi0wNC0wNiIsCiAgICAicmV0dXJuIjogIjIwMjYtMDQtMTMi
+CiAgfSwKICAiTUNhcnJpZXIiOiAiV1MiLAogICJPQ2FycmllciI6ICIiLAog
+ICJDYXJyaWVyVHlwZSI6ICJXZXN0SmV0LCBMQVRBTSBBaXJsaW5lcyIsCiAg
+InByaWNlIjogewogICAgImFtb3VudCI6IDg3NiwKICAgICJjdXJyZW5jeSI6
+ICJDQUQiCiAgfSwKICAibWFya2V0IjogIkNBIiwKICAiY2FiaW5DbGFzcyI6
+ICJFQ09OT01ZIiwKICAicHJvdmlkZXIiOiAiZWRyZWFtcyIsCiAgIkRlZXBs
+aW5rMiI6ICJodHRwczovL3d3dy50cmlwLmNvbS9mbGlnaHRzL3Nob3dmYXJl
+Zmlyc3Q/ZGNpdHk9eXZyJmFjaXR5PWxpbSZkZGF0ZT0yMDI2LTA0LTA2JnJk
+YXRlPTIwMjYtMDQtMTMmdHJpcFR5cGU9b3cmY2xhc3M9eSZxdWFudGl0eT0x
+Jm5vbnN0b3Bvbmx5PW9mZiZsb2NhbGU9ZW4tQ0EmY3Vycj1DQUQmQWxsaWFu
+Y2VpZD03NjUyMTg0JlNJRD0yODY1NTAyNDQmdHJpcF9zdWIzPUQ5NDM5NDI1
+XG4iLAogICJjcmVhdGVkYXQiOiAiMjAyNi0wMS0wMlQyMzoxMTowNy4wMzZa
+IiwKICAibGFzdFVwZGF0ZWQiOiAiMjAyNi0wMS0wM1QwNDozMTo1Ny4xNjha
+Igp9
