@@ -1,27 +1,17 @@
-{
-  "id": "deal:edreams:SFO-CDG:2026-03-17:500",
-  "slug": "sfo-cdg",
-  "route": "SFO-CDG",
-  "from": "San Francisco",
-  "to": "Paris",
-  "tripType": "R",
-  "departureDate": "17MAR",
-  "returnDate": "24MAR",
-  "dates": {
-    "depart": "2026-03-17",
-    "return": "2026-03-24"
-  },
-  "MCarrier": null,
-  "OCarrier": "AC",
-  "CarrierType": "Air Canada, Lufthansa",
-  "price": {
-    "amount": 500,
-    "currency": "USD"
-  },
-  "market": "US",
-  "cabinClass": "ECONOMY",
-  "provider": "edreams",
-  "Deeplink2": "https://www.edreams.net/travel/#results/type=R;from=SFO;to=CDG;dep=2026-03-17;ret=2026-03-24;buyPath=FLIGHTS_HOME_SEARCH_FORM;internalSearch=true",
-  "createdat": "2026-01-01T12:17:52.333Z",
-  "lastUpdated": "2026-01-03T04:31:57.141Z"
-}
+ewogICJpZCI6ICJkZWFsOmVkcmVhbXM6U0ZPLUNERzoyMDI2LTAzLTE3OjUw
+MCIsCiAgInNsdWciOiAic2ZvLWNkZyIsCiAgInJvdXRlIjogIlNGTy1DREci
+LAogICJmcm9tIjogIlNhbiBGcmFuY2lzY28iLAogICJ0byI6ICJQYXJpcyIs
+CiAgInRyaXBUeXBlIjogIlIiLAogICJkZXBhcnR1cmVEYXRlIjogIjE3TUFS
+IiwKICAicmV0dXJuRGF0ZSI6ICIyNE1BUiIsCiAgImRhdGVzIjogewogICAg
+ImRlcGFydCI6ICIyMDI2LTAzLTE3IiwKICAgICJyZXR1cm4iOiAiMjAyNi0w
+My0yNCIKICB9LAogICJNQ2FycmllciI6IG51bGwsCiAgIk9DYXJyaWVyIjog
+IkFDIiwKICAiQ2FycmllclR5cGUiOiAiQWlyIENhbmFkYSwgTHVmdGhhbnNh
+IiwKICAicHJpY2UiOiB7CiAgICAiYW1vdW50IjogNTAwLAogICAgImN1cnJl
+bmN5IjogIlVTRCIKICB9LAogICJtYXJrZXQiOiAiVVMiLAogICJjYWJpbkNs
+YXNzIjogIkVDT05PTVkiLAogICJwcm92aWRlciI6ICJlZHJlYW1zIiwKICAi
+RGVlcGxpbmsyIjogImh0dHBzOi8vd3d3LmVkcmVhbXMubmV0L3RyYXZlbC8j
+cmVzdWx0cy90eXBlPVI7ZnJvbT1TRk87dG89Q0RHO2RlcD0yMDI2LTAzLTE3
+O3JldD0yMDI2LTAzLTI0O2J1eVBhdGg9RkxJR0hUU19IT01FX1NFQVJDSF9G
+T1JNO2ludGVybmFsU2VhcmNoPXRydWUiLAogICJjcmVhdGVkYXQiOiAiMjAy
+Ni0wMS0wMVQxMjoxNzo1Mi4zMzNaIiwKICAibGFzdFVwZGF0ZWQiOiAiMjAy
+Ni0wMS0wM1QwNDozMTo1Ny4xNDFaIgp9
