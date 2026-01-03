@@ -1,27 +1,18 @@
-{
-  "id": "deal:edreams:YUL-LIM:2026-04-06:718",
-  "slug": "yul-lim",
-  "route": "YUL-LIM",
-  "from": "Montreal",
-  "to": "Lima",
-  "tripType": "R",
-  "departureDate": "06APR",
-  "returnDate": "13APR",
-  "dates": {
-    "depart": "2026-04-06",
-    "return": "2026-04-13"
-  },
-  "MCarrier": "CM",
-  "OCarrier": "",
-  "CarrierType": "Copa Airlines",
-  "price": {
-    "amount": 718,
-    "currency": "CAD"
-  },
-  "market": "CA",
-  "cabinClass": "ECONOMY",
-  "provider": "edreams",
-  "Deeplink2": "https://www.trip.com/flights/showfarefirst?dcity=yul&acity=lim&ddate=2026-04-06&rdate=2026-04-13&tripType=ow&class=y&quantity=1&nonstoponly=off&locale=en-CA&curr=CAD&Allianceid=7652184&SID=286550244&trip_sub3=D9439425\n",
-  "createdat": "2026-01-02T23:11:07.012Z",
-  "lastUpdated": "2026-01-03T04:31:57.163Z"
-}
+ewogICJpZCI6ICJkZWFsOmVkcmVhbXM6WVVMLUxJTToyMDI2LTA0LTA2Ojcx
+OCIsCiAgInNsdWciOiAieXVsLWxpbSIsCiAgInJvdXRlIjogIllVTC1MSU0i
+LAogICJmcm9tIjogIk1vbnRyZWFsIiwKICAidG8iOiAiTGltYSIsCiAgInRy
+aXBUeXBlIjogIlIiLAogICJkZXBhcnR1cmVEYXRlIjogIjA2QVBSIiwKICAi
+cmV0dXJuRGF0ZSI6ICIxM0FQUiIsCiAgImRhdGVzIjogewogICAgImRlcGFy
+dCI6ICIyMDI2LTA0LTA2IiwKICAgICJyZXR1cm4iOiAiMjAyNi0wNC0xMyIK
+ICB9LAogICJNQ2FycmllciI6ICJDTSIsCiAgIk9DYXJyaWVyIjogIiIsCiAg
+IkNhcnJpZXJUeXBlIjogIkNvcGEgQWlybGluZXMiLAogICJwcmljZSI6IHsK
+ICAgICJhbW91bnQiOiA3MTgsCiAgICAiY3VycmVuY3kiOiAiQ0FEIgogIH0s
+CiAgIm1hcmtldCI6ICJDQSIsCiAgImNhYmluQ2xhc3MiOiAiRUNPTk9NWSIs
+CiAgInByb3ZpZGVyIjogImVkcmVhbXMiLAogICJEZWVwbGluazIiOiAiaHR0
+cHM6Ly93d3cudHJpcC5jb20vZmxpZ2h0cy9zaG93ZmFyZWZpcnN0P2RjaXR5
+PXl1bCZhY2l0eT1saW0mZGRhdGU9MjAyNi0wNC0wNiZyZGF0ZT0yMDI2LTA0
+LTEzJnRyaXBUeXBlPW93JmNsYXNzPXkmcXVhbnRpdHk9MSZub25zdG9wb25s
+eT1vZmYmbG9jYWxlPWVuLUNBJmN1cnI9Q0FEJkFsbGlhbmNlaWQ9NzY1MjE4
+NCZTSUQ9Mjg2NTUwMjQ0JnRyaXBfc3ViMz1EOTQzOTQyNVxuIiwKICAiY3Jl
+YXRlZGF0IjogIjIwMjYtMDEtMDJUMjM6MTE6MDcuMDEyWiIsCiAgImxhc3RV
+cGRhdGVkIjogIjIwMjYtMDEtMDNUMDQ6MzE6NTcuMTYzWiIKfQ==
