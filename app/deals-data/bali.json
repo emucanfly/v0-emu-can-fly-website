@@ -1,13 +1,1 @@
-eyJkZWFscyI6W3sibWFya2V0IjoiQ0EiLCJyb3V0ZSI6IllWUi1EUFMiLCJm
-cm9tQWlycG9ydCI6IllWUiIsInRvQWlycG9ydCI6IkRQUyIsImRlcGFydHVy
-ZURhdGUiOiIxMk1BWSIsInJldHVybkRhdGUiOiIxOU1BWSIsImNhYmluIjoi
-RUNPTk9NWSIsImNhcnJpZXIiOiIiLCJwcmljZSI6eyJhbW91bnQiOjk5OCwi
-Y3VycmVuY3kiOiJDQUQiLCJkZWVwTGluayI6Imh0dHBzOi8vY2EuZWRyZWFt
-cy5jb20vdHJhdmVsLyNyZXN1bHRzL3R5cGU9Ujtmcm9tPVlWUjt0bz1EUFM7
-ZGVwPTIwMjYtMDUtMTI7cmV0PTIwMjYtMDUtMTk7YnV5UGF0aD1GTElHSFRT
-X0hPTUVfU0VBUkNIX0ZPUk07aW50ZXJuYWxTZWFyY2g9dHJ1ZSIsImxhc3Rz
-ZWVuIjoiMjAyNi0wMS0wMlQxMToyMjoxNC42NDdaIn19XSwibG93ZXN0UHJp
-Y2UiOjk5OCwibGFzdFVwZGF0ZWQiOiIyMDI2LTAxLTAyVDExOjIyOjE0LjY0
-N1oiLCJzbHVnIjoiYmFsaSIsImRlc3RpbmF0aW9uIjoiQmFsaSwgSW5kb25l
-c2lhIiwiaW1hZ2UiOiIvYmFsaS1pbmRvbmVzaWEtdGVtcGxlLXJpY2UtdGVy
-cmFjZXMuanBnIiwiY3VycmVuY3kiOiJDQUQifQ==
+{"deals":[{"market":"CA","route":"YVR-DPS","fromAirport":"YVR","toAirport":"DPS","departureDate":"12MAY","returnDate":"19MAY","cabin":"ECONOMY","carrier":"","price":{"amount":998,"currency":"CAD","deepLink":"https://ca.edreams.com/travel/#results/type=R;from=YVR;to=DPS;dep=2026-05-12;ret=2026-05-19;buyPath=FLIGHTS_HOME_SEARCH_FORM;internalSearch=true","lastseen":"2026-01-02T11:22:14.647Z"}}],"lowestPrice":998,"lastUpdated":"2026-01-02T11:22:14.647Z","slug":"bali","destination":"Bali, Indonesia","image":"/bali-indonesia-temple-rice-terraces.jpg","currency":"CAD"}
