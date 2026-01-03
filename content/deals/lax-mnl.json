@@ -1,0 +1,27 @@
+{
+  "id": "deal:edreams:LAX-MNL:2026-03-03:667",
+  "slug": "lax-mnl",
+  "route": "LAX-MNL",
+  "from": "Los Angeles",
+  "to": "Manila",
+  "tripType": "R",
+  "departureDate": "03MAR",
+  "returnDate": "17MAR",
+  "dates": {
+    "depart": "2026-03-03",
+    "return": "2026-03-17"
+  },
+  "MCarrier": null,
+  "OCarrier": "CX",
+  "CarrierType": "Cathay Pacific",
+  "price": {
+    "amount": 667,
+    "currency": "USD"
+  },
+  "market": "US",
+  "cabinClass": "ECONOMY",
+  "provider": "edreams",
+  "Deeplink2": "https://www.edreams.net/travel/#results/type=R;from=LAX;to=MNL;dep=2026-03-03;ret=2026-03-17;buyPath=FLIGHTS_HOME_SEARCH_FORM;internalSearch=true",
+  "createdat": "2026-01-01T04:33:22.684Z",
+  "lastUpdated": "2026-01-03T04:31:57.123Z"
+}
