@@ -1,27 +1,17 @@
-{
-  "id": "deal:edreams:SFO-ATH:2026-03-03:590",
-  "slug": "sfo-ath",
-  "route": "SFO-ATH",
-  "from": "San Francisco",
-  "to": "Athens",
-  "tripType": "R",
-  "departureDate": "03MAR",
-  "returnDate": "10MAR",
-  "dates": {
-    "depart": "2026-03-03",
-    "return": "2026-03-10"
-  },
-  "MCarrier": null,
-  "OCarrier": "DL",
-  "CarrierType": "Delta Air Lines, Air France, KLM",
-  "price": {
-    "amount": 590,
-    "currency": "USD"
-  },
-  "market": "US",
-  "cabinClass": "ECONOMY",
-  "provider": "edreams",
-  "Deeplink2": "https://www.edreams.net/travel/#results/type=R;from=SFO;to=ATH;dep=2026-03-03;ret=2026-03-10;buyPath=FLIGHTS_HOME_SEARCH_FORM;internalSearch=true",
-  "createdat": "2026-01-01T12:17:52.334Z",
-  "lastUpdated": "2026-01-03T04:31:57.141Z"
-}
+ewogICJpZCI6ICJkZWFsOmVkcmVhbXM6U0ZPLUFUSDoyMDI2LTAzLTAzOjU5
+MCIsCiAgInNsdWciOiAic2ZvLWF0aCIsCiAgInJvdXRlIjogIlNGTy1BVEgi
+LAogICJmcm9tIjogIlNhbiBGcmFuY2lzY28iLAogICJ0byI6ICJBdGhlbnMi
+LAogICJ0cmlwVHlwZSI6ICJSIiwKICAiZGVwYXJ0dXJlRGF0ZSI6ICIwM01B
+UiIsCiAgInJldHVybkRhdGUiOiAiMTBNQVIiLAogICJkYXRlcyI6IHsKICAg
+ICJkZXBhcnQiOiAiMjAyNi0wMy0wMyIsCiAgICAicmV0dXJuIjogIjIwMjYt
+MDMtMTAiCiAgfSwKICAiTUNhcnJpZXIiOiBudWxsLAogICJPQ2FycmllciI6
+ICJETCIsCiAgIkNhcnJpZXJUeXBlIjogIkRlbHRhIEFpciBMaW5lcywgQWly
+IEZyYW5jZSwgS0xNIiwKICAicHJpY2UiOiB7CiAgICAiYW1vdW50IjogNTkw
+LAogICAgImN1cnJlbmN5IjogIlVTRCIKICB9LAogICJtYXJrZXQiOiAiVVMi
+LAogICJjYWJpbkNsYXNzIjogIkVDT05PTVkiLAogICJwcm92aWRlciI6ICJl
+ZHJlYW1zIiwKICAiRGVlcGxpbmsyIjogImh0dHBzOi8vd3d3LmVkcmVhbXMu
+bmV0L3RyYXZlbC8jcmVzdWx0cy90eXBlPVI7ZnJvbT1TRk87dG89QVRIO2Rl
+cD0yMDI2LTAzLTAzO3JldD0yMDI2LTAzLTEwO2J1eVBhdGg9RkxJR0hUU19I
+T01FX1NFQVJDSF9GT1JNO2ludGVybmFsU2VhcmNoPXRydWUiLAogICJjcmVh
+dGVkYXQiOiAiMjAyNi0wMS0wMVQxMjoxNzo1Mi4zMzRaIiwKICAibGFzdFVw
+ZGF0ZWQiOiAiMjAyNi0wMS0wM1QwNDozMTo1Ny4xNDFaIgp9
