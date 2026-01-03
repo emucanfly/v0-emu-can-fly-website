@@ -1,0 +1,27 @@
+{
+  "id": "deal:edreams:YYZ-HNL:2026-03-03:534",
+  "slug": "yyz-hnl",
+  "route": "YYZ-HNL",
+  "from": "Toronto",
+  "to": "Honolulu",
+  "tripType": "R",
+  "departureDate": "03MAR",
+  "returnDate": "10MAR",
+  "dates": {
+    "depart": "2026-03-03",
+    "return": "2026-03-10"
+  },
+  "MCarrier": null,
+  "OCarrier": "AC",
+  "CarrierType": "Air Canada",
+  "price": {
+    "amount": 534,
+    "currency": "CAD"
+  },
+  "market": "CA",
+  "cabinClass": "ECONOMY",
+  "provider": "edreams",
+  "Deeplink2": "https://ca.edreams.com/travel/#results/type=R;from=YYZ;to=HNL;dep=2026-03-03;ret=2026-03-10;buyPath=FLIGHTS_HOME_SEARCH_FORM;internalSearch=true",
+  "createdat": "2026-01-01T09:12:09.500Z",
+  "lastUpdated": "2026-01-03T04:31:57.132Z"
+}
