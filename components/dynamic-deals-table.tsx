@@ -15,12 +15,15 @@ interface N8nDeal {
   returnDate: string
   cabin: string
   carrier: string
-  price: {
-    amount: number
-    currency: string
-    deepLink: string
-    lastseen: string
-  }
+  price:
+    | {
+        amount: number
+        currency: string
+        deepLink: string
+        lastseen: string
+      }
+    | string
+    | number // Allow price to be string or number for flexibility
 }
 
 interface DynamicDealsTableProps {
@@ -77,7 +80,7 @@ export function DynamicDealsTable({ destination, fallbackDeals = [] }: DynamicDe
     )
   }
 
-  const formatPrice = (amount: number, currency: string) => {
+  const formatPrice = (deal: N8nDeal) => {
     const symbols: Record<string, string> = {
       CAD: "CA$",
       USD: "$",
@@ -87,7 +90,32 @@ export function DynamicDealsTable({ destination, fallbackDeals = [] }: DynamicDe
       JPY: "¥",
       NZD: "NZ$",
     }
-    return `${symbols[currency] || currency}${amount.toLocaleString()}`
+
+    // Handle nested price object
+    if (deal.price && typeof deal.price === "object" && "amount" in deal.price) {
+      const amount = deal.price.amount
+      const currency = deal.price.currency || "CAD"
+      if (amount === undefined || amount === null) return "N/A"
+      return `${symbols[currency] || currency}${amount.toLocaleString()}`
+    }
+
+    // Handle simple price string or number
+    if (typeof deal.price === "number") {
+      return `CA$${deal.price.toLocaleString()}`
+    }
+
+    if (typeof deal.price === "string") {
+      return deal.price
+    }
+
+    return "N/A"
+  }
+
+  const getDeepLink = (deal: N8nDeal) => {
+    if (deal.price && typeof deal.price === "object" && "deepLink" in deal.price) {
+      return deal.price.deepLink
+    }
+    return "#"
   }
 
   return (
@@ -108,19 +136,17 @@ export function DynamicDealsTable({ destination, fallbackDeals = [] }: DynamicDe
           <TableBody>
             {deals.map((deal, index) => (
               <TableRow key={`${deal.route}-${deal.departureDate}-${index}`} className="hover:bg-muted/50">
-                <TableCell className="font-medium">{deal.route}</TableCell>
-                <TableCell>{deal.origin}</TableCell>
-                <TableCell>{deal.destination}</TableCell>
+                <TableCell className="font-medium">{deal.route || "N/A"}</TableCell>
+                <TableCell>{deal.origin || "N/A"}</TableCell>
+                <TableCell>{deal.destination || "N/A"}</TableCell>
                 <TableCell>
-                  {deal.departureDate} - {deal.returnDate}
+                  {deal.departureDate || "?"} - {deal.returnDate || "?"}
                 </TableCell>
                 <TableCell className="capitalize">{deal.cabin?.toLowerCase() || "Economy"}</TableCell>
-                <TableCell className="font-semibold text-green-600">
-                  {formatPrice(deal.price.amount, deal.price.currency)}
-                </TableCell>
+                <TableCell className="font-semibold text-green-600">{formatPrice(deal)}</TableCell>
                 <TableCell>
                   <a
-                    href={deal.price.deepLink}
+                    href={getDeepLink(deal)}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-1 text-blue-600 hover:text-blue-800 hover:underline font-medium"
