@@ -2,7 +2,7 @@ import { FlightDealPage } from "@/components/flight-deal-page"
 
 export const metadata = {
   title: "Cheap Flights to Rome | Emu Can Fly",
-  description: "Find the best flight deals to Rome, Italy. Compare cheap airfares to Fiumicino Airport.",
+  description: "Find the best flight deals to Rome, Italy. Compare cheap airfares from Canada.",
 }
 
 export default function FlightsToRomePage() {
@@ -13,11 +13,11 @@ export default function FlightsToRomePage() {
       heroImage="/rome-colosseum-ancient-ruins.jpg"
       destination="rome"
       description="Rome is a living museum where ancient ruins, Renaissance art, and vibrant modern life intertwine. Explore the Colosseum, toss a coin in Trevi Fountain, marvel at the Vatican, and indulge in the finest pasta, gelato, and espresso in the Eternal City."
-      popularDestinations={[
-        { airportCode: "Fiumicino (FCO)", description: "Main international airport, train to city" },
-        { airportCode: "Ciampino (CIA)", description: "Budget airlines, smaller airport" },
-        { airportCode: "Colosseum", description: "Ancient amphitheater, iconic landmark" },
-        { airportCode: "Vatican City", description: "St. Peter's, Sistine Chapel" },
+      topAttractions={[
+        { name: "Colosseum", description: "Ancient amphitheater and icon of Imperial Rome" },
+        { name: "Vatican Museums", description: "Priceless art collection and Sistine Chapel" },
+        { name: "Trevi Fountain", description: "Baroque masterpiece - toss a coin and make a wish" },
+        { name: "Roman Forum", description: "Ancient ruins of the heart of the Roman Empire" },
       ]}
       bestTimeToVisit="April to June and September to October offer pleasant weather. Summer is hot and crowded. Winter is mild with fewer tourists. Holy Week and Easter are special but extremely busy."
       travelTips={[
@@ -29,26 +29,10 @@ export default function FlightsToRomePage() {
       fallbackDeals={[
         {
           id: "1",
-          route: "SYD → FCO",
+          route: "YYZ → FCO",
           dates: "10Apr - 22Apr",
-          price: "$1,149",
-          currency: "AUD",
-          link: "https://www.trip.com/flights/rome?Allianceid=7652184&SID=286550244",
-        },
-        {
-          id: "2",
-          route: "MEL → FCO",
-          dates: "18Apr - 30Apr",
-          price: "$1,199",
-          currency: "AUD",
-          link: "https://www.trip.com/flights/rome?Allianceid=7652184&SID=286550244",
-        },
-        {
-          id: "3",
-          route: "BNE → FCO",
-          dates: "05May - 18May",
-          price: "$1,099",
-          currency: "AUD",
+          price: "CA$849",
+          currency: "CAD",
           link: "https://www.trip.com/flights/rome?Allianceid=7652184&SID=286550244",
         },
       ]}

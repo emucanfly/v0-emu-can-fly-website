@@ -2,8 +2,7 @@ import { FlightDealPage } from "@/components/flight-deal-page"
 
 export const metadata = {
   title: "Cheap Flights to Taipei | Emu Can Fly",
-  description:
-    "Find the best flight deals to Taipei, Taiwan. Compare cheap airfares to Taiwan Taoyuan International Airport.",
+  description: "Find the best flight deals to Taipei, Taiwan. Compare cheap airfares from Canada.",
 }
 
 export default function FlightsToTaipeiPage() {
@@ -11,14 +10,14 @@ export default function FlightsToTaipeiPage() {
     <FlightDealPage
       title="Flights to Taipei"
       subtitle="Taiwan's vibrant capital"
-      heroImage="/taipei-taiwan-101-tower-cityscape.jpg"
+      heroImage="/taipei-taiwan-101.jpg"
       destination="taipei"
       description="Taipei charms visitors with its incredible night markets, stunning temples, modern architecture, and legendary food scene. From the heights of Taipei 101 to steaming bowls of beef noodle soup, this friendly city offers endless discoveries and some of Asia's best street food."
-      popularDestinations={[
-        { airportCode: "Taoyuan (TPE)", description: "Main international airport, 40km from city" },
-        { airportCode: "Songshan (TSA)", description: "Domestic flights, city center location" },
-        { airportCode: "Taipei 101", description: "Iconic skyscraper, observation deck" },
-        { airportCode: "Shilin Night Market", description: "Taiwan's most famous night market" },
+      topAttractions={[
+        { name: "Taipei 101", description: "Iconic bamboo-shaped skyscraper with observation deck" },
+        { name: "Shilin Night Market", description: "Taiwan's largest and most famous night market" },
+        { name: "Longshan Temple", description: "Historic Buddhist temple with ornate carvings" },
+        { name: "Jiufen Old Street", description: "Charming hillside village that inspired Spirited Away" },
       ]}
       bestTimeToVisit="October to December offers pleasant weather with less rain. Spring (March-May) is mild but can be rainy. Summer is hot and humid with typhoon risk. Winter is cool with occasional cold snaps."
       travelTips={[
@@ -30,26 +29,10 @@ export default function FlightsToTaipeiPage() {
       fallbackDeals={[
         {
           id: "1",
-          route: "SYD → TPE",
+          route: "YVR → TPE",
           dates: "15Mar - 25Mar",
-          price: "$599",
-          currency: "AUD",
-          link: "https://www.trip.com/flights/taipei?Allianceid=7652184&SID=286550244",
-        },
-        {
-          id: "2",
-          route: "MEL → TPE",
-          dates: "22Mar - 01Apr",
-          price: "$649",
-          currency: "AUD",
-          link: "https://www.trip.com/flights/taipei?Allianceid=7652184&SID=286550244",
-        },
-        {
-          id: "3",
-          route: "BNE → TPE",
-          dates: "10Apr - 20Apr",
-          price: "$579",
-          currency: "AUD",
+          price: "CA$899",
+          currency: "CAD",
           link: "https://www.trip.com/flights/taipei?Allianceid=7652184&SID=286550244",
         },
       ]}

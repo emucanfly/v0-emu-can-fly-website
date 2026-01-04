@@ -2,7 +2,8 @@ import { FlightDealPage } from "@/components/flight-deal-page"
 
 export const metadata = {
   title: "Cheap Flights to Brisbane | Emu Can Fly",
-  description: "Find the best flight deals to Brisbane, Australia. Compare cheap airfares to Brisbane Airport.",
+  description:
+    "Find the best flight deals from Canada to Brisbane, Australia. Compare cheap airfares to Brisbane Airport.",
 }
 
 export default function FlightsToBrisbanePage() {
@@ -13,11 +14,11 @@ export default function FlightsToBrisbanePage() {
       heroImage="/brisbane-australia-skyline.jpg"
       destination="brisbane"
       description="Brisbane basks in year-round sunshine along the Brisbane River. With its relaxed outdoor lifestyle, thriving food and bar scene, cultural precincts, and easy access to the Gold Coast and Great Barrier Reef, Queensland's capital is Australia's new world city."
-      popularDestinations={[
-        { airportCode: "Brisbane (BNE)", description: "International airport, Airtrain to city" },
-        { airportCode: "South Bank", description: "Cultural precinct, beach lagoon" },
-        { airportCode: "Fortitude Valley", description: "Entertainment district, nightlife" },
-        { airportCode: "Gold Coast", description: "Theme parks, beaches, 1 hour south" },
+      topAttractions={[
+        { name: "South Bank Parklands", description: "Cultural precinct with free beach lagoon" },
+        { name: "Lone Pine Koala Sanctuary", description: "World's first and largest koala sanctuary" },
+        { name: "Story Bridge Adventure Climb", description: "Climb Brisbane's iconic cantilever bridge" },
+        { name: "GOMA (Gallery of Modern Art)", description: "Australia's largest modern art gallery" },
       ]}
       bestTimeToVisit="Brisbane is pleasant year-round with over 280 sunny days. Winter (June-August) is ideal with dry, mild weather. Summer is hot and humid with afternoon storms. Spring brings jacaranda season."
       travelTips={[
@@ -25,32 +26,6 @@ export default function FlightsToBrisbanePage() {
         "South Bank has a free artificial beach",
         "Day trip to Gold Coast theme parks or beaches",
         "Lone Pine Koala Sanctuary for wildlife",
-      ]}
-      fallbackDeals={[
-        {
-          id: "1",
-          route: "YVR → BNE",
-          dates: "Any date",
-          price: "$1,099",
-          currency: "CAD",
-          link: "https://www.trip.com/flights/brisbane?Allianceid=7652184&SID=286550244",
-        },
-        {
-          id: "2",
-          route: "YYZ → BNE",
-          dates: "Any date",
-          price: "$1,199",
-          currency: "CAD",
-          link: "https://www.trip.com/flights/brisbane?Allianceid=7652184&SID=286550244",
-        },
-        {
-          id: "3",
-          route: "YYC → BNE",
-          dates: "20Mar - 27Mar",
-          price: "$1,149",
-          currency: "CAD",
-          link: "https://www.trip.com/flights/brisbane?Allianceid=7652184&SID=286550244",
-        },
       ]}
     />
   )

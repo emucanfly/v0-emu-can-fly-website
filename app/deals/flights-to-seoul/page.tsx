@@ -2,7 +2,7 @@ import { FlightDealPage } from "@/components/flight-deal-page"
 
 export const metadata = {
   title: "Cheap Flights to Seoul | Emu Can Fly",
-  description: "Find the best flight deals to Seoul, Korea. Compare cheap airfares to Incheon International Airport.",
+  description: "Find the best flight deals to Seoul, Korea. Compare cheap airfares from Canada.",
 }
 
 export default function FlightsToSeoulPage() {
@@ -10,14 +10,14 @@ export default function FlightsToSeoulPage() {
     <FlightDealPage
       title="Flights to Seoul"
       subtitle="Experience K-culture and ancient traditions"
-      heroImage="/seoul-korea-palace-traditional.jpg"
+      heroImage="/seoul-korea-palace.jpg"
       destination="seoul"
       description="Seoul is a captivating fusion of ancient palaces and K-pop culture, traditional markets and cutting-edge technology. Explore historic Gyeongbokgung Palace, shop in trendy Gangnam, feast on Korean BBQ, and experience the energy of one of Asia's most dynamic cities."
-      popularDestinations={[
-        { airportCode: "Incheon (ICN)", description: "Modern international hub, 1 hour from Seoul" },
-        { airportCode: "Gimpo (GMP)", description: "Domestic and regional flights, closer to city" },
-        { airportCode: "Myeongdong", description: "Shopping mecca, K-beauty and street food" },
-        { airportCode: "Hongdae", description: "Youth culture, nightlife, and indie music" },
+      topAttractions={[
+        { name: "Gyeongbokgung Palace", description: "Grand royal palace with changing of the guard" },
+        { name: "Bukchon Hanok Village", description: "Traditional Korean houses on scenic hillside" },
+        { name: "N Seoul Tower", description: "Iconic tower with panoramic city views" },
+        { name: "Myeongdong Shopping District", description: "K-beauty and street food paradise" },
       ]}
       bestTimeToVisit="Spring (April-May) brings cherry blossoms and mild weather. Autumn (September-November) offers stunning fall foliage. Summer is hot and humid with monsoon rains. Winter is cold but magical with snow."
       travelTips={[
@@ -29,26 +29,10 @@ export default function FlightsToSeoulPage() {
       fallbackDeals={[
         {
           id: "1",
-          route: "SYD → ICN",
+          route: "YVR → ICN",
           dates: "08Apr - 18Apr",
-          price: "$699",
-          currency: "AUD",
-          link: "https://www.trip.com/flights/seoul?Allianceid=7652184&SID=286550244",
-        },
-        {
-          id: "2",
-          route: "MEL → ICN",
-          dates: "15Apr - 25Apr",
-          price: "$749",
-          currency: "AUD",
-          link: "https://www.trip.com/flights/seoul?Allianceid=7652184&SID=286550244",
-        },
-        {
-          id: "3",
-          route: "BNE → ICN",
-          dates: "01May - 12May",
-          price: "$679",
-          currency: "AUD",
+          price: "CA$899",
+          currency: "CAD",
           link: "https://www.trip.com/flights/seoul?Allianceid=7652184&SID=286550244",
         },
       ]}

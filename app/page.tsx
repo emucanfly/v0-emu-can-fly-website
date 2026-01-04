@@ -36,7 +36,9 @@ export default function Home() {
 
         <section className="container mx-auto px-4 py-8">
           <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-2">Hot Flight Deals</h2>
-          <p className="text-muted-foreground mb-6">Discover amazing fares to popular destinations</p>
+          <p className="text-muted-foreground mb-6">
+            Exclusive flight deals for Canadian travellers - fly for less from Canada
+          </p>
           <DealsGrid showOnlyWithDeals={false} maxItems={12} />
         </section>
 

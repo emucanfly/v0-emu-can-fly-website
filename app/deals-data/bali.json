@@ -1,1 +1,4 @@
-{"deals":[{"market":"CA","route":"YVR-DPS","fromAirport":"YVR","toAirport":"DPS","departureDate":"12MAY","returnDate":"19MAY","cabin":"ECONOMY","carrier":"","price":{"amount":998,"currency":"CAD","deepLink":"https://ca.edreams.com/travel/#results/type=R;from=YVR;to=DPS;dep=2026-05-12;ret=2026-05-19;buyPath=FLIGHTS_HOME_SEARCH_FORM;internalSearch=true","lastseen":"2026-01-02T11:22:14.647Z"}}],"lowestPrice":998,"lastUpdated":"2026-01-02T11:22:14.647Z","slug":"bali","destination":"Bali, Indonesia","image":"/bali-indonesia-temple-rice-terraces.jpg","currency":"CAD"}
+{
+  "lastUpdated": "2025-01-03T10:30:00Z",
+  "deals": []
+}

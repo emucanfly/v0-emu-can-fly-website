@@ -2,8 +2,7 @@ import { FlightDealPage } from "@/components/flight-deal-page"
 
 export const metadata = {
   title: "Cheap Flights to Bali | Emu Can Fly",
-  description:
-    "Find the best flight deals to Bali, Indonesia. Compare cheap airfares to Ngurah Rai International Airport.",
+  description: "Find the best flight deals to Bali, Indonesia. Compare cheap airfares from Canada.",
 }
 
 export default function FlightsToBaliPage() {
@@ -14,42 +13,26 @@ export default function FlightsToBaliPage() {
       heroImage="/bali-indonesia-temple-rice-terraces.jpg"
       destination="bali"
       description="Bali captivates with its dramatic dances, colorful ceremonies, arts and crafts, and stunning natural beauty. From world-class surfing and diving to ancient temples and lush rice terraces, this Indonesian island offers endless adventures and relaxation."
-      popularDestinations={[
-        { airportCode: "Denpasar (DPS)", description: "Ngurah Rai International Airport, main gateway to Bali" },
-        { airportCode: "Ubud", description: "Cultural heart of Bali, art galleries and rice paddies" },
-        { airportCode: "Seminyak", description: "Beach clubs, boutique shopping, and fine dining" },
-        { airportCode: "Uluwatu", description: "Dramatic cliffs, surf breaks, and ancient temple" },
+      topAttractions={[
+        { name: "Tanah Lot Temple", description: "Iconic sea temple perched on a rocky outcrop" },
+        { name: "Tegallalang Rice Terraces", description: "Stunning UNESCO-listed terraced rice paddies" },
+        { name: "Ubud Monkey Forest", description: "Sacred sanctuary with playful long-tailed macaques" },
+        { name: "Uluwatu Temple", description: "Clifftop temple with breathtaking sunset views" },
       ]}
       bestTimeToVisit="The dry season (April to October) is the best time to visit with sunny days and little rain. The wet season (November to March) brings afternoon showers but also lush green landscapes and fewer tourists."
       travelTips={[
-        "Direct flights from Australian cities take around 6 hours",
-        "Visa on arrival available for many nationalities",
+        "Flights from Canada typically connect through Asia-Pacific hubs",
+        "Visa on arrival available for Canadian passport holders",
         "Rent a scooter for easy transport (international license required)",
         "Respect local customs when visiting temples - cover shoulders and knees",
       ]}
       fallbackDeals={[
         {
           id: "1",
-          route: "SYD → DPS",
+          route: "YVR → DPS",
           dates: "05Mar - 15Mar",
-          price: "$499",
-          currency: "AUD",
-          link: "https://www.trip.com/flights/bali?Allianceid=7652184&SID=286550244",
-        },
-        {
-          id: "2",
-          route: "MEL → DPS",
-          dates: "12Mar - 22Mar",
-          price: "$529",
-          currency: "AUD",
-          link: "https://www.trip.com/flights/bali?Allianceid=7652184&SID=286550244",
-        },
-        {
-          id: "3",
-          route: "PER → DPS",
-          dates: "01Apr - 10Apr",
-          price: "$399",
-          currency: "AUD",
+          price: "CA$1,099",
+          currency: "CAD",
           link: "https://www.trip.com/flights/bali?Allianceid=7652184&SID=286550244",
         },
       ]}

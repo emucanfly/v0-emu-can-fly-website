@@ -1,17 +1,29 @@
 import { NextResponse } from "next/server"
 
+export interface N8nDeal {
+  market: string
+  route: string
+  fromAirport: string
+  toAirport: string
+  origin: string
+  destination: string
+  departureDate: string
+  returnDate: string
+  cabin: string
+  carrier: string
+  price: {
+    amount: number
+    currency: string
+    deepLink: string
+    lastseen: string
+  }
+}
+
 export interface DealData {
   destination: string
   slug: string
   image: string
-  deals: {
-    id: string
-    route: string
-    dates: string
-    price: string
-    currency: string
-    link: string
-  }[]
+  deals: N8nDeal[]
   lowestPrice: number | null
   currency: string
   hasDeals: boolean
@@ -108,18 +120,11 @@ const ALL_DESTINATIONS: Omit<DealData, "deals" | "lowestPrice" | "hasDeals" | "l
 
 async function fetchDealsForDestination(
   slug: string,
-): Promise<{ deals: DealData["deals"]; lastUpdated: string | null }> {
+): Promise<{ deals: N8nDeal[]; lastUpdated: string | null; lowestPrice: number | null }> {
   try {
     let data
 
     try {
-      // Attempt to import local deals data
-      const localData = await import(`@/app/deals-data/${slug}.json`)
-      if (localData.default) {
-        data = localData.default
-      }
-    } catch {
-      // Local file not found, try GitHub
       const githubUrl = `https://raw.githubusercontent.com/emucanfly/v0-emu-can-fly-website/main/content/deals/${slug}.json`
       const response = await fetch(githubUrl, {
         next: { revalidate: 3600 }, // Cache for 1 hour
@@ -128,31 +133,42 @@ async function fetchDealsForDestination(
 
       if (response.ok) {
         data = await response.json()
+        console.log(`[v0] Loaded ${slug} from GitHub`)
+      }
+    } catch (githubError) {
+      console.log(`[v0] Could not fetch from GitHub for ${slug}`)
+    }
+
+    if (!data) {
+      try {
+        const localData = await import(`@/app/deals-data/${slug}.json`)
+        if (localData.default) {
+          data = localData.default
+          console.log(`[v0] Loaded ${slug} from local deals-data`)
+        }
+      } catch (localError) {
+        // No local file either
       }
     }
 
     if (data && data.deals && Array.isArray(data.deals)) {
-      return { deals: data.deals, lastUpdated: data.lastUpdated || null }
+      const lowestPrice =
+        data.lowestPrice ||
+        (data.deals.length > 0
+          ? Math.min(...data.deals.map((d: N8nDeal) => d.price?.amount || Number.POSITIVE_INFINITY))
+          : null)
+
+      return {
+        deals: data.deals,
+        lastUpdated: data.lastUpdated || null,
+        lowestPrice,
+      }
     }
-  } catch {
-    // Silent fail - will return empty deals
+  } catch (error) {
+    console.log(`[v0] Error fetching deals for ${slug}: ${error}`)
   }
 
-  return { deals: [], lastUpdated: null }
-}
-
-function extractLowestPrice(deals: DealData["deals"]): number | null {
-  if (deals.length === 0) return null
-
-  const prices = deals
-    .map((deal) => {
-      // Extract numeric value from price string (e.g., "$599" -> 599)
-      const match = deal.price.replace(/[^0-9.]/g, "")
-      return Number.parseFloat(match) || Number.POSITIVE_INFINITY
-    })
-    .filter((p) => p !== Number.POSITIVE_INFINITY)
-
-  return prices.length > 0 ? Math.min(...prices) : null
+  return { deals: [], lastUpdated: null, lowestPrice: null }
 }
 
 export async function GET(request: Request) {
@@ -166,8 +182,7 @@ export async function GET(request: Request) {
       return NextResponse.json({ error: "Destination not found" }, { status: 404 })
     }
 
-    const { deals, lastUpdated } = await fetchDealsForDestination(slug)
-    const lowestPrice = extractLowestPrice(deals)
+    const { deals, lastUpdated, lowestPrice } = await fetchDealsForDestination(slug)
 
     return NextResponse.json({
       ...destination,
@@ -181,8 +196,7 @@ export async function GET(request: Request) {
   // Return all destinations with their deal status
   const destinationsWithDeals = await Promise.all(
     ALL_DESTINATIONS.map(async (dest) => {
-      const { deals, lastUpdated } = await fetchDealsForDestination(dest.slug)
-      const lowestPrice = extractLowestPrice(deals)
+      const { deals, lastUpdated, lowestPrice } = await fetchDealsForDestination(dest.slug)
 
       return {
         ...dest,

@@ -4,24 +4,32 @@ import { useEffect, useState } from "react"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
 import { ExternalLink, Loader2 } from "lucide-react"
 
-interface Deal {
-  id: string
+interface N8nDeal {
+  market: string
   route: string
-  dates: string
-  price: string
-  currency: string
-  link: string
+  fromAirport: string
+  toAirport: string
+  origin: string
+  destination: string
+  departureDate: string
+  returnDate: string
+  cabin: string
+  carrier: string
+  price: {
+    amount: number
+    currency: string
+    deepLink: string
+    lastseen: string
+  }
 }
 
 interface DynamicDealsTableProps {
   destination: string
-  fallbackDeals?: Deal[]
+  fallbackDeals?: N8nDeal[]
 }
 
-// This component fetches deals from an external source (GitHub JSON or n8n webhook)
-// allowing daily/weekly updates without modifying v0 code
 export function DynamicDealsTable({ destination, fallbackDeals = [] }: DynamicDealsTableProps) {
-  const [deals, setDeals] = useState<Deal[]>(fallbackDeals)
+  const [deals, setDeals] = useState<N8nDeal[]>(fallbackDeals)
   const [loading, setLoading] = useState(true)
   const [lastUpdated, setLastUpdated] = useState<string | null>(null)
 
@@ -29,23 +37,11 @@ export function DynamicDealsTable({ destination, fallbackDeals = [] }: DynamicDe
     async function fetchDeals() {
       try {
         // Primary source: GitHub raw JSON file
-        // Update this URL to your GitHub repo where deals are stored
         const githubUrl = `https://raw.githubusercontent.com/emucanfly/v0-emu-can-fly-website/main/content/deals/${destination}.json`
 
-        // Fallback source: n8n webhook endpoint
-        const n8nUrl = `https://your-n8n-instance.com/webhook/deals/${destination}`
-
-        let response = await fetch(githubUrl, {
-          next: { revalidate: 3600 }, // Cache for 1 hour
+        const response = await fetch(githubUrl, {
           headers: { Accept: "application/json" },
         }).catch(() => null)
-
-        if (!response?.ok) {
-          // Try n8n webhook as fallback
-          response = await fetch(n8nUrl, {
-            next: { revalidate: 3600 },
-          }).catch(() => null)
-        }
 
         if (response?.ok) {
           const data = await response.json()
@@ -81,6 +77,19 @@ export function DynamicDealsTable({ destination, fallbackDeals = [] }: DynamicDe
     )
   }
 
+  const formatPrice = (amount: number, currency: string) => {
+    const symbols: Record<string, string> = {
+      CAD: "CA$",
+      USD: "$",
+      AUD: "A$",
+      EUR: "€",
+      GBP: "£",
+      JPY: "¥",
+      NZD: "NZ$",
+    }
+    return `${symbols[currency] || currency}${amount.toLocaleString()}`
+  }
+
   return (
     <div className="space-y-4">
       <div className="overflow-x-auto rounded-lg border">
@@ -88,27 +97,35 @@ export function DynamicDealsTable({ destination, fallbackDeals = [] }: DynamicDe
           <TableHeader>
             <TableRow className="bg-[#001f3f]">
               <TableHead className="text-[#FFD700] font-semibold">Route</TableHead>
+              <TableHead className="text-[#FFD700] font-semibold">Origin</TableHead>
+              <TableHead className="text-[#FFD700] font-semibold">Destination</TableHead>
               <TableHead className="text-[#FFD700] font-semibold">Dates</TableHead>
+              <TableHead className="text-[#FFD700] font-semibold">Cabin</TableHead>
               <TableHead className="text-[#FFD700] font-semibold">Price</TableHead>
-              <TableHead className="text-[#FFD700] font-semibold">Currency</TableHead>
               <TableHead className="text-[#FFD700] font-semibold">Book Now</TableHead>
             </TableRow>
           </TableHeader>
           <TableBody>
-            {deals.map((deal) => (
-              <TableRow key={deal.id} className="hover:bg-muted/50">
+            {deals.map((deal, index) => (
+              <TableRow key={`${deal.route}-${deal.departureDate}-${index}`} className="hover:bg-muted/50">
                 <TableCell className="font-medium">{deal.route}</TableCell>
-                <TableCell>{deal.dates}</TableCell>
-                <TableCell className="font-semibold text-green-600">{deal.price}</TableCell>
-                <TableCell>{deal.currency}</TableCell>
+                <TableCell>{deal.origin}</TableCell>
+                <TableCell>{deal.destination}</TableCell>
+                <TableCell>
+                  {deal.departureDate} - {deal.returnDate}
+                </TableCell>
+                <TableCell className="capitalize">{deal.cabin?.toLowerCase() || "Economy"}</TableCell>
+                <TableCell className="font-semibold text-green-600">
+                  {formatPrice(deal.price.amount, deal.price.currency)}
+                </TableCell>
                 <TableCell>
                   <a
-                    href={deal.link}
+                    href={deal.price.deepLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1 text-blue-600 hover:text-blue-800 hover:underline"
+                    className="inline-flex items-center gap-1 text-blue-600 hover:text-blue-800 hover:underline font-medium"
                   >
-                    View Deal <ExternalLink className="w-3 h-3" />
+                    Book <ExternalLink className="w-3 h-3" />
                   </a>
                 </TableCell>
               </TableRow>

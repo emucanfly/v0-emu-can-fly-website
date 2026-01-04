@@ -2,7 +2,7 @@ import { FlightDealPage } from "@/components/flight-deal-page"
 
 export const metadata = {
   title: "Cheap Flights to Beijing | Emu Can Fly",
-  description: "Find the best flight deals to Beijing, China. Compare cheap airfares to Beijing Capital Airport.",
+  description: "Find the best flight deals to Beijing, China. Compare cheap airfares from Canada.",
 }
 
 export default function FlightsToBeijingPage() {
@@ -10,14 +10,14 @@ export default function FlightsToBeijingPage() {
     <FlightDealPage
       title="Flights to Beijing"
       subtitle="Discover China's ancient capital"
-      heroImage="/beijing-great-wall-china.jpg"
+      heroImage="/beijing-china-forbidden-city.jpg"
       destination="beijing"
       description="Beijing is a city of imperial grandeur and modern ambition. Walk along the Great Wall, explore the Forbidden City, wander through ancient hutongs, and witness China's incredible transformation in this historic capital that has been the seat of power for centuries."
-      popularDestinations={[
-        { airportCode: "Beijing Capital (PEK)", description: "Main international airport" },
-        { airportCode: "Beijing Daxing (PKX)", description: "New mega-airport, stunning architecture" },
-        { airportCode: "Forbidden City", description: "Imperial palace complex, UNESCO site" },
-        { airportCode: "Great Wall", description: "Badaling, Mutianyu sections nearby" },
+      topAttractions={[
+        { name: "Great Wall of China", description: "Iconic ancient fortification stretching across mountains" },
+        { name: "Forbidden City", description: "Imperial palace complex with 980 buildings" },
+        { name: "Temple of Heaven", description: "Ming Dynasty temple where emperors prayed" },
+        { name: "Summer Palace", description: "Beautiful royal garden with Kunming Lake" },
       ]}
       bestTimeToVisit="September to October offers clear skies and pleasant temperatures. Spring (April-May) is also good but can be dusty. Avoid summer heat and winter cold if possible. Golden Week (Oct 1-7) is extremely crowded."
       travelTips={[
@@ -29,26 +29,10 @@ export default function FlightsToBeijingPage() {
       fallbackDeals={[
         {
           id: "1",
-          route: "SYD → PEK",
+          route: "YVR → PEK",
           dates: "10Apr - 20Apr",
-          price: "$699",
-          currency: "AUD",
-          link: "https://www.trip.com/flights/beijing?Allianceid=7652184&SID=286550244",
-        },
-        {
-          id: "2",
-          route: "MEL → PEK",
-          dates: "18Apr - 28Apr",
-          price: "$749",
-          currency: "AUD",
-          link: "https://www.trip.com/flights/beijing?Allianceid=7652184&SID=286550244",
-        },
-        {
-          id: "3",
-          route: "BNE → PEK",
-          dates: "05May - 15May",
-          price: "$679",
-          currency: "AUD",
+          price: "CA$799",
+          currency: "CAD",
           link: "https://www.trip.com/flights/beijing?Allianceid=7652184&SID=286550244",
         },
       ]}

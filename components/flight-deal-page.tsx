@@ -4,8 +4,8 @@ import { ExpediaBanner } from "@/components/expedia-banner"
 import { DynamicDealsTable } from "@/components/dynamic-deals-table"
 import Image from "next/image"
 
-interface Destination {
-  airportCode: string
+interface Attraction {
+  name: string
   description: string
 }
 
@@ -15,16 +15,26 @@ interface FlightDealPageProps {
   heroImage: string
   destination: string
   description: string
-  popularDestinations: Destination[]
+  topAttractions: Attraction[]
   bestTimeToVisit: string
   travelTips: string[]
   fallbackDeals?: Array<{
-    id: string
+    market: string
     route: string
-    dates: string
-    price: string
-    currency: string
-    link: string
+    fromAirport: string
+    toAirport: string
+    origin: string
+    destination: string
+    departureDate: string
+    returnDate: string
+    cabin: string
+    carrier: string
+    price: {
+      amount: number
+      currency: string
+      deepLink: string
+      lastseen: string
+    }
   }>
 }
 
@@ -34,7 +44,7 @@ export function FlightDealPage({
   heroImage,
   destination,
   description,
-  popularDestinations,
+  topAttractions,
   bestTimeToVisit,
   travelTips,
   fallbackDeals = [],
@@ -64,8 +74,12 @@ export function FlightDealPage({
         <div className="container mx-auto px-4 py-8">
           <div className="bg-card rounded-lg border p-6 mb-8">
             <h2 className="text-2xl font-bold text-foreground mb-2">Latest Flight Deals</h2>
-            <p className="text-muted-foreground mb-6">
+            <p className="text-muted-foreground mb-4">
               Hot deals found for {title.replace("Flights to ", "")}. Prices and availability updated regularly.
+            </p>
+            <p className="text-sm text-muted-foreground/70 mb-6 italic">
+              Note: Prices shown are a guide based on fares last seen and may change at any time at the discretion of
+              the airline or online travel agency. Please verify final pricing before booking.
             </p>
             <DynamicDealsTable destination={destination} fallbackDeals={fallbackDeals} />
           </div>
@@ -80,12 +94,12 @@ export function FlightDealPage({
                 <h2 className="text-2xl font-bold text-foreground mb-4">Discover {title.replace("Flights to ", "")}</h2>
                 <p className="text-muted-foreground mb-6">{description}</p>
 
-                <h3 className="text-xl font-semibold text-foreground mb-3">Popular Destinations</h3>
+                <h3 className="text-xl font-semibold text-foreground mb-3">Top Attractions</h3>
                 <div className="grid md:grid-cols-2 gap-4 mb-6">
-                  {popularDestinations.map((dest) => (
-                    <div key={dest.airportCode} className="bg-card rounded-lg p-4 border">
-                      <h4 className="font-semibold">{dest.airportCode}</h4>
-                      <p className="text-sm text-muted-foreground">{dest.description}</p>
+                  {topAttractions.map((attraction) => (
+                    <div key={attraction.name} className="bg-card rounded-lg p-4 border">
+                      <h4 className="font-semibold text-foreground">{attraction.name}</h4>
+                      <p className="text-sm text-muted-foreground">{attraction.description}</p>
                     </div>
                   ))}
                 </div>

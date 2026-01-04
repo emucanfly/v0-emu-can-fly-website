@@ -3,7 +3,7 @@ import { FlightDealPage } from "@/components/flight-deal-page"
 export const metadata = {
   title: "Cheap Flights to Jakarta | Emu Can Fly",
   description:
-    "Find the best flight deals to Jakarta, Indonesia. Compare cheap airfares to Soekarno-Hatta International Airport.",
+    "Find the best flight deals from Canada to Jakarta, Indonesia. Compare cheap airfares to Soekarno-Hatta International Airport.",
 }
 
 export default function FlightsToJakartaPage() {
@@ -14,11 +14,11 @@ export default function FlightsToJakartaPage() {
       heroImage="/jakarta-indonesia-skyline-monas.jpg"
       destination="jakarta"
       description="Jakarta is a megacity of contrasts - gleaming malls and ancient temples, extreme wealth and traditional markets. Explore Dutch colonial history, diverse cuisine from across Indonesia, vibrant nightlife, and use it as a gateway to explore Java and beyond."
-      popularDestinations={[
-        { airportCode: "Jakarta (CGK)", description: "Soekarno-Hatta International Airport" },
-        { airportCode: "Monas", description: "National Monument, city symbol" },
-        { airportCode: "Old Town (Kota Tua)", description: "Dutch colonial architecture" },
-        { airportCode: "Thousand Islands", description: "Island getaways near Jakarta" },
+      topAttractions={[
+        { name: "Monas (National Monument)", description: "132m tower symbolizing Indonesia's independence" },
+        { name: "Old Town (Kota Tua)", description: "Dutch colonial architecture and museums" },
+        { name: "Thousand Islands (Kepulauan Seribu)", description: "Island getaways just offshore" },
+        { name: "Istiqlal Mosque", description: "Southeast Asia's largest mosque" },
       ]}
       bestTimeToVisit="May to September is the dry season with less humidity. October to April is wet season with afternoon downpours. Jakarta is hot year-round - prepare for humidity and traffic."
       travelTips={[
@@ -26,32 +26,6 @@ export default function FlightsToJakartaPage() {
         "Indonesian food is incredible - try nasi goreng and satay",
         "Malls are social hubs with great food courts",
         "Learn basic Indonesian phrases - limited English outside hotels",
-      ]}
-      fallbackDeals={[
-        {
-          id: "1",
-          route: "SYD → CGK",
-          dates: "08Mar - 18Mar",
-          price: "$499",
-          currency: "AUD",
-          link: "https://www.trip.com/flights/jakarta?Allianceid=7652184&SID=286550244",
-        },
-        {
-          id: "2",
-          route: "MEL → CGK",
-          dates: "15Mar - 25Mar",
-          price: "$529",
-          currency: "AUD",
-          link: "https://www.trip.com/flights/jakarta?Allianceid=7652184&SID=286550244",
-        },
-        {
-          id: "3",
-          route: "PER → CGK",
-          dates: "01Apr - 10Apr",
-          price: "$449",
-          currency: "AUD",
-          link: "https://www.trip.com/flights/jakarta?Allianceid=7652184&SID=286550244",
-        },
       ]}
     />
   )

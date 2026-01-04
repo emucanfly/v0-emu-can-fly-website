@@ -2,7 +2,7 @@ import { FlightDealPage } from "@/components/flight-deal-page"
 
 export const metadata = {
   title: "Cheap Flights to Melbourne | Emu Can Fly",
-  description: "Find the best flight deals to Melbourne, Australia. Compare cheap airfares to Melbourne Airport.",
+  description: "Find the best flight deals to Melbourne, Australia. Compare cheap airfares from Canada.",
 }
 
 export default function FlightsToMelbournePage() {
@@ -13,11 +13,11 @@ export default function FlightsToMelbournePage() {
       heroImage="/melbourne-australia-skyline.jpg"
       destination="melbourne"
       description="Melbourne is Australia's cultural heart, famous for its street art laneways, world-class coffee, diverse food scene, and passionate sports culture. Explore hidden bars, trendy neighborhoods, beautiful gardens, and experience why locals love their liveable city."
-      popularDestinations={[
-        { airportCode: "Melbourne (MEL)", description: "Tullamarine Airport, SkyBus to city" },
-        { airportCode: "Avalon (AVV)", description: "Budget airlines, southwest of city" },
-        { airportCode: "Laneways", description: "Street art, hidden bars, cafes" },
-        { airportCode: "Great Ocean Road", description: "Iconic coastal drive, day trip" },
+      topAttractions={[
+        { name: "Hosier Lane", description: "World-famous street art alley in the CBD" },
+        { name: "Melbourne Cricket Ground", description: "Iconic stadium and sports mecca" },
+        { name: "Queen Victoria Market", description: "Historic market with fresh produce and souvenirs" },
+        { name: "Royal Botanic Gardens", description: "Beautiful parklands by the Yarra River" },
       ]}
       bestTimeToVisit="March to May (autumn) and September to November (spring) are ideal. Summer hosts Australian Open and cricket. Winter is cold but great for food and culture. Melbourne weather is famously unpredictable."
       travelTips={[
@@ -30,24 +30,8 @@ export default function FlightsToMelbournePage() {
         {
           id: "1",
           route: "YVR → MEL",
-          dates: "Any date",
-          price: "$1,049",
-          currency: "CAD",
-          link: "https://www.trip.com/flights/melbourne?Allianceid=7652184&SID=286550244",
-        },
-        {
-          id: "2",
-          route: "YYZ → MEL",
-          dates: "Any date",
-          price: "$1,149",
-          currency: "CAD",
-          link: "https://www.trip.com/flights/melbourne?Allianceid=7652184&SID=286550244",
-        },
-        {
-          id: "3",
-          route: "YYC → MEL",
-          dates: "18Mar - 25Mar",
-          price: "$1,099",
+          dates: "10Mar - 24Mar",
+          price: "CA$1,049",
           currency: "CAD",
           link: "https://www.trip.com/flights/melbourne?Allianceid=7652184&SID=286550244",
         },

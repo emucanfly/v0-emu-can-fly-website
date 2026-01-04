@@ -2,7 +2,7 @@ import { FlightDealPage } from "@/components/flight-deal-page"
 
 export const metadata = {
   title: "Cheap Flights to Tokyo | Emu Can Fly",
-  description: "Find the best flight deals to Tokyo, Japan. Compare cheap airfares to Narita and Haneda airports.",
+  description: "Find the best flight deals to Tokyo, Japan. Compare cheap airfares from Canada.",
 }
 
 export default function FlightsToTokyoPage() {
@@ -13,11 +13,11 @@ export default function FlightsToTokyoPage() {
       heroImage="/tokyo-japan-skyline-mount-fuji.jpg"
       destination="tokyo"
       description="Tokyo is a fascinating blend of ultra-modern and traditional, from neon-lit skyscrapers and anime culture to ancient temples and serene gardens. Experience world-class cuisine, cutting-edge technology, and centuries-old traditions all in one incredible city."
-      popularDestinations={[
-        { airportCode: "Narita (NRT)", description: "Main international hub, 60km from central Tokyo" },
-        { airportCode: "Haneda (HND)", description: "Closer to city center, domestic and international flights" },
-        { airportCode: "Shibuya", description: "Famous crossing, youth culture, and shopping" },
-        { airportCode: "Shinjuku", description: "Entertainment district, neon lights, and nightlife" },
+      topAttractions={[
+        { name: "Senso-ji Temple", description: "Tokyo's oldest temple with iconic red lantern gate" },
+        { name: "Shibuya Crossing", description: "World's busiest pedestrian intersection" },
+        { name: "Tokyo Skytree", description: "634m broadcasting tower with panoramic city views" },
+        { name: "Meiji Shrine", description: "Serene Shinto shrine in a lush forest setting" },
       ]}
       bestTimeToVisit="Spring (March-May) for cherry blossoms and autumn (September-November) for fall foliage are the most popular times. Summer can be hot and humid, while winter is cold but offers fewer crowds and winter illuminations."
       travelTips={[
@@ -29,26 +29,10 @@ export default function FlightsToTokyoPage() {
       fallbackDeals={[
         {
           id: "1",
-          route: "SYD → NRT",
+          route: "YVR → NRT",
           dates: "10Apr - 20Apr",
-          price: "$799",
-          currency: "AUD",
-          link: "https://www.trip.com/flights/tokyo?Allianceid=7652184&SID=286550244",
-        },
-        {
-          id: "2",
-          route: "MEL → HND",
-          dates: "15Apr - 25Apr",
-          price: "$849",
-          currency: "AUD",
-          link: "https://www.trip.com/flights/tokyo?Allianceid=7652184&SID=286550244",
-        },
-        {
-          id: "3",
-          route: "BNE → NRT",
-          dates: "01May - 12May",
-          price: "$779",
-          currency: "AUD",
+          price: "CA$899",
+          currency: "CAD",
           link: "https://www.trip.com/flights/tokyo?Allianceid=7652184&SID=286550244",
         },
       ]}
